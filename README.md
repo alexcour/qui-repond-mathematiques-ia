@@ -1,12 +1,12 @@
-# Qui rÃ©pond des mathÃ©matiques produites par machine
+# Qui répond des mathématiques produites par machine
 
-Public reproducibility package for Alexandre Couretâ€™s scientific working preprint *Qui rÃ©pond des mathÃ©matiques produites par machine ? TraÃ§abilitÃ© longitudinale des transitions de revendications en recherche mathÃ©matique assistÃ©e par IA*.
+Public reproducibility package for Alexandre Couret’s scientific working preprint *Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA*.
 
 - Author: Alexandre Couret, independent researcher, France.
 - ORCID: https://orcid.org/0009-0000-8246-7146
 - Package version: **1.1.0**, prepared 30 September 2026.
 - Manuscript version: **1.1.1**, prepared 30 September 2026, **not peer reviewed**.
-- Frozen dataset version: **1.1.2** â€” 21 events, 13 sources, 7 claims.
+- Frozen dataset version: **1.1.2** — 21 events, 13 sources, 7 claims.
 - HAL record: https://hal.science/hal-05773424
 - Zenodo DOI: https://doi.org/10.5281/zenodo.23079572
 
@@ -30,16 +30,16 @@ Before a public release, the maintainer must additionally run:
 python3 scripts/check_release_ready.py
 ```
 
-That gate intentionally fails until the actual HAL notice and the authorâ€™s manuscript licence choice have been entered. Passing the local verification suite alone does not mean the publication metadata are complete.
+That gate intentionally fails until the actual HAL notice and the author’s manuscript licence choice have been entered. Passing the local verification suite alone does not mean the publication metadata are complete.
 
 ## Read in this order
 
-1. `POSITIONING_AND_RELATED_WORK.md` â€” relation to established provenance and claim models.
-2. `CODEBOOK.md` and `data/` â€” schema, events and source register.
-3. `REPRODUCIBILITY.md`, `TEST_STATUS.md` â€” exactly what can be replayed.
-4. `POST_FREEZE_NOTES.md` â€” later governance notes outside the frozen dataset.
-5. `CONTROL_DESIGN.md`, `LIMITATIONS_AND_NEXT_VERSION.md` â€” next controlled study.
-6. `RESEARCH_AGENDA_COLLABORATION.md` â€” bounded tasks for independent contributors.
+1. `POSITIONING_AND_RELATED_WORK.md` — relation to established provenance and claim models.
+2. `CODEBOOK.md` and `data/` — schema, events and source register.
+3. `REPRODUCIBILITY.md`, `TEST_STATUS.md` — exactly what can be replayed.
+4. `POST_FREEZE_NOTES.md` — later governance notes outside the frozen dataset.
+5. `CONTROL_DESIGN.md`, `LIMITATIONS_AND_NEXT_VERSION.md` — next controlled study.
+6. `RESEARCH_AGENDA_COLLABORATION.md` — bounded tasks for independent contributors.
 
 Other files include the MIT licence, GitHub Actions workflow, citation metadata, Zenodo metadata, mutation tests, issue templates, release notes and the fresh `TEST_REPORT_v1.1.0.txt`. The previous `TEST_REPORT_v1.0.0.txt` remains historical evidence.
 
@@ -47,7 +47,7 @@ Other files include the MIT licence, GitHub Actions workflow, citation metadata,
 
 This package claims neither a new general ontology of provenance nor a representative estimate of AI reliability. It does not demonstrate causal learning, superiority of a model family, or progress toward the Riemann hypothesis. Originality of the protocol/corpus combination remains subject to prior-art review.
 
-The case-B numerical values are reported historical values. The raw permutation experiment has not been replayed here. N=2310 has a source-specific historical mention; the separate Barningâ€“Hall certificates announced in later documents are not bundled or newly replayed here. Private conversations, email and internal reports are not redistributed. Availability identifiers are not hashes of those private originals.
+The case-B numerical values are reported historical values. The raw permutation experiment has not been replayed here. N=2310 has a source-specific historical mention; the separate Barning–Hall certificates announced in later documents are not bundled or newly replayed here. Private conversations, email and internal reports are not redistributed. Availability identifiers are not hashes of those private originals.
 
 HOL-01 remains a separate public finite certificate at p=7:
 

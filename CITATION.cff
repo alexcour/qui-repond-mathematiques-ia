@@ -1,7 +1,7 @@
 doi: "10.5281/zenodo.23079572"
 cff-version: 1.2.0
 message: "If you use this reproducibility package, cite the archived package DOI and the associated HAL preprint."
-title: "Qui rÃ©pond des mathÃ©matiques produites par machine ? â€” public reproducibility package"
+title: "Qui répond des mathématiques produites par machine ? — public reproducibility package"
 type: software
 authors:
   - family-names: Couret
@@ -26,7 +26,7 @@ keywords:
   - non-promotion
 preferred-citation:
   type: article
-  title: "Qui rÃ©pond des mathÃ©matiques produites par machine ? TraÃ§abilitÃ© longitudinale des transitions de revendications en recherche mathÃ©matique assistÃ©e par IA"
+  title: "Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA"
   authors:
     - family-names: Couret
       given-names: Alexandre
