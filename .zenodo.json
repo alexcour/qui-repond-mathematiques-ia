@@ -1,0 +1,33 @@
+{
+  "title": "Qui rÃ©pond des mathÃ©matiques produites par machine ? â€” public reproducibility package",
+  "version": "1.1.0",
+  "publication_date": "2026-09-30",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "fra",
+  "creators": [
+    {
+      "name": "Couret, Alexandre",
+      "orcid": "0009-0000-8246-7146"
+    }
+  ],
+  "description": "Public redacted reproducibility package accompanying scientific manuscript version 1.1.1 prepared on 30 September 2026. Frozen pilot dataset v1.1.2 contains 21 events, 13 sources and 7 claims. It provides structural validation, four mutation tests, descriptive analysis, prior-art positioning, a prospective control design and a bounded collaboration agenda. Private sources and autonomous mathematical certificate packages are not redistributed. Structural validation does not prove the mathematical statements or establish AI reliability.",
+  "keywords": [
+    "AI and mathematics",
+    "provenance",
+    "scientific accountability",
+    "reproducibility",
+    "claim-level audit",
+    "longitudinal case study",
+    "non-promotion",
+    "documentary correction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://hal.science/hal-05773424",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

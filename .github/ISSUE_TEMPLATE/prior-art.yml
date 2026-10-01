@@ -1,0 +1,23 @@
+name: Prior art / scope correction
+description: Point to prior art or a possible overstatement of novelty/scope
+title: "[Prior art] "
+labels: ["prior-art"]
+body:
+  - type: input
+    id: claim
+    attributes:
+      label: Claim or passage concerned
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference / DOI / stable link
+    validations:
+      required: true
+  - type: textarea
+    id: implication
+    attributes:
+      label: Why this changes novelty, scope, or wording
+    validations:
+      required: true

@@ -1,0 +1,30 @@
+name: Replication report
+description: Report an independent replay or failed replay of a public artifact
+title: "[Replication] "
+labels: ["replication"]
+body:
+  - type: input
+    id: object
+    attributes:
+      label: Object / claim / script
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and commands
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result, including failures
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I have not included private correspondence or personal data.
+          required: true

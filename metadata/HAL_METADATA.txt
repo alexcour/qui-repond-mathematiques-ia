@@ -1,0 +1,44 @@
+TYPE DE DEPOT
+PrÃ©-publication, Document de travail â€” non Ã©valuÃ©e par les pairs
+
+TITRE
+Qui rÃ©pond des mathÃ©matiques produites par machine ? TraÃ§abilitÃ© longitudinale des transitions de revendications en recherche mathÃ©matique assistÃ©e par IA
+
+AUTEUR
+Alexandre Couret â€” chercheur indÃ©pendant â€” France
+
+ORCID
+0009-0000-8246-7146 â€” conservÃ© depuis le paquet prÃ©cÃ©dent
+
+VERSION DU MANUSCRIT
+1.1.1 harmonisÃ©e â€” 30 septembre 2026
+
+VERSION DU JEU ANALYTIQUE
+v1.1.2 â€” 21 Ã©vÃ©nements, 13 sources, 7 claims â€” instantanÃ© historique inchangÃ©
+
+RESUME FR
+Les systÃ¨mes dâ€™intelligence artificielle interviennent dÃ©sormais dans la gÃ©nÃ©ration dâ€™Ã©noncÃ©s, de calculs, de code et de preuves formelles. Nous Ã©tudions non la performance moyenne dâ€™un modÃ¨le, mais la traÃ§abilitÃ© des changements de statut dâ€™une revendication mathÃ©matique au cours dâ€™un programme de recherche. Le protocole reprÃ©sente chaque transition par un Ã©vÃ©nement sourcÃ© et sÃ©pare quatre axes â€” Ã©pistÃ©mique, documentaire, diffusion et workflow â€” ainsi quâ€™un Ã©tat probatoire relatif Ã  la source. Lâ€™extraction pilote v1.1.2 contient 21 Ã©vÃ©nements, 13 sources et 7 claims regroupÃ©s en quatre trajectoires : rÃ©futation avec rÃ©sidu local, non-promotion statistique, restriction de portÃ©e avant publication et rÃ©gression documentaire suivie dâ€™une restauration de provenance. Un validateur dÃ©terministe impose des vocabulaires fermÃ©s, le chaÃ®nage des Ã©tats, la filiation des claims, les sÃ©quences intra-journÃ©e et la justification de tout Ã©cart probatoire ; des tests de mutation vÃ©rifient que ces invariants Ã©chouent lorsquâ€™ils sont volontairement violÃ©s. Le rÃ©sultat principal est mÃ©thodologique : des actes de veto, de restriction, de publication ou de correction documentaire peuvent Ãªtre comparÃ©s sans les confondre avec la vÃ©ritÃ© mathÃ©matique du claim. Le manuscrit publie en outre un agenda de vÃ©rification bornÃ© destinÃ© Ã  permettre des rÃ©plications, objections et collaborations indÃ©pendantes sur des objets prÃ©cis.
+
+ABSTRACT EN
+Artificial-intelligence systems increasingly participate in the generation of mathematical statements, computations, code, and formal proofs. We study not average model performance but the traceability of status changes of mathematical claims within a longitudinal research program. The protocol represents each transition as a sourced event and separates four axes â€” epistemic, documentary, diffusion, and workflow â€” together with a source-relative evidence state. Pilot extraction v1.1.2 contains 21 events, 13 sources, and 7 claims organized into four trajectories: refutation with a surviving local residue, statistical non-promotion, pre-publication scope restriction, and documentary regression followed by provenance restoration. A deterministic validator enforces controlled vocabularies, state chaining, claim lineage, within-day ordering, and explicit justification of evidence overrides; mutation tests verify that deliberately corrupted records fail. The main contribution is methodological: veto, scope restriction, publication, and documentary correction can be compared without being conflated with the mathematical truth status of a claim. The manuscript also exposes a bounded open-verification agenda for independent replication, criticism, and collaboration.
+
+MOTS-CLES
+IA et mathÃ©matiques ; provenance ; responsabilitÃ© scientifique ; Ã©tude longitudinale ; reproductibilitÃ© ; claim-level audit ; non-promotion ; correction documentaire
+
+KEYWORDS
+AI and mathematics; provenance; scientific accountability; longitudinal case study; reproducibility; claim-level audit; non-promotion; documentary correction
+
+DOMAINES HAL
+Choisir les catÃ©gories disponibles adaptÃ©es Ã  la mÃ©thodologie de recherche, Ã  lâ€™intelligence artificielle et aux mathÃ©matiques. Ne pas inventer un libellÃ© absent de la taxonomie.
+
+LICENCE DU MANUSCRIT
+CC-BY 4.0
+
+NOTICE HAL
+https://hal.science/hal-05773424
+
+FICHIER PRINCIPAL
+PREPRINT_HAL_QUI_REPOND_MATHEMATIQUES_IA_V1_1_1_SCIENTIFIQUE_2026-09-30.pdf
+
+NOTE DE VERSION
+Harmonisation documentaire ; corpus v1.1.2 conservÃ© ; voir NOTE_DE_VERSION_V1_1_1.md.

@@ -1,0 +1,8 @@
+{
+  "TEST_REPORT_v1.0.0.txt": "beeef1d379869090bc850b81b6b400ef53073448d4b15e202a6d87b0a4698c5e",
+  "data/events_v1.1.2.csv": "044ca3aff5eaecaee299e2eec445d11bf96c93c449109fd2e956a590252c46cb",
+  "data/sources_v1.1.2.csv": "45f16c121a3b406a733764a3a5fce6b1a54bc21b5386a7c2760e02ab5ddf3b56",
+  "scripts/analyze_public.py": "a60d267d0f3cd8012cf0faf7f37b4113db0eaa485f3f5924acd5eade5707133e",
+  "scripts/test_mutations_v1_1_2.py": "9a7845ce76d94e9241f3b2e0c7a16774c651acc4dbf064e7d089db77688151d4",
+  "scripts/validate_events_v1_1_2.py": "7b4265f1774a390aeb2b56a430a9d67fedf780083d8d013002c7988aa183b540"
+}

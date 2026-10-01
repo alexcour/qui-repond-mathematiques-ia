@@ -1,0 +1,25 @@
+﻿
+$ python3 scripts/validate_events_v1_1_2.py
+517 structural checks passed - exit 0.
+
+$ python3 scripts/test_mutations_v1_1_2.py
+OK baseline C1 = SECONDARY_PUBLIC
+OK mutation rejected: ambiguous conversation identifier -> FAIL A2 ambiguous conversation id; use CONV-Cx
+OK mutation rejected: first claim event starts with before != NA -> FAIL B-ALIGNMENT first event begins at epistemic NA
+OK mutation rejected: evidence override without justification -> FAIL D4 evidence override without justification
+OK mutation rejected: C1 incorrectly recoded as PRIMARY_PUBLIC -> FAIL C1 must remain SECONDARY_PUBLIC
+All expected mutations were detected.
+
+$ python3 scripts/analyze_public.py
+events=21
+sources=13
+claims=7
+cases=A:5,B:3,C:7,D:6
+public_sources=3
+Public descriptive snapshot: OK
+
+$ python3 scripts/check_metadata.py
+Metadata versions and frozen bytes: OK
+Manifest OK (37 files)
+
+RELEASE VERIFICATION: OK
