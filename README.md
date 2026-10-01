@@ -4,7 +4,7 @@ Public reproducibility package for Alexandre Couret’s scientific working prepr
 
 - Author: Alexandre Couret, independent researcher, France.
 - ORCID: https://orcid.org/0009-0000-8246-7146
-- Package version: **1.1.0**, prepared 30 September 2026.
+- Package version: **1.1.0**, prepared 30 September 2026; GitHub release published 1 October 2026 at 09:41:32 UTC.
 - Manuscript version: **1.1.1**, prepared 30 September 2026, **not peer reviewed**.
 - Frozen dataset version: **1.1.2** — 21 events, 13 sources, 7 claims.
 - HAL record: https://hal.science/hal-05773424
@@ -30,7 +30,7 @@ Before a public release, the maintainer must additionally run:
 python3 scripts/check_release_ready.py
 ```
 
-That gate intentionally fails until the actual HAL notice and the author’s manuscript licence choice have been entered. Passing the local verification suite alone does not mean the publication metadata are complete.
+The HAL notice and manuscript licence (CC-BY-4.0) are now entered. This gate checks their metadata consistency; rerun it for each maintenance change. Its success does not independently inspect the live HAL notice or validate the mathematics.
 
 ## Read in this order
 
@@ -40,6 +40,7 @@ That gate intentionally fails until the actual HAL notice and the author’s man
 4. `POST_FREEZE_NOTES.md` — later governance notes outside the frozen dataset.
 5. `CONTROL_DESIGN.md`, `LIMITATIONS_AND_NEXT_VERSION.md` — next controlled study.
 6. `RESEARCH_AGENDA_COLLABORATION.md` — bounded tasks for independent contributors.
+7. `POTENTIAL_VALUE_AND_EVALUATION.md` — proposed uses and evaluations; no measured external impact is claimed.
 
 Other files include the MIT licence, GitHub Actions workflow, citation metadata, Zenodo metadata, mutation tests, issue templates, release notes and the fresh `TEST_REPORT_v1.1.0.txt`. The previous `TEST_REPORT_v1.0.0.txt` remains historical evidence.
 
@@ -58,4 +59,14 @@ Its later uniform explanation is treated as classical context and does not enlar
 
 ## Citation and rights
 
-The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript has the rights chosen by its author.
+The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript is recorded as CC-BY-4.0 in the publication configuration.
+
+## Current publication record
+
+See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for identifiers, dates, archive boundaries and links.
+
+## Consolidated novelty boundary
+
+Provenance models, claim graphs, audit trails and longitudinal scientific studies pre-exist this work. The contribution studied here is the specific longitudinal protocol–corpus combination for mathematical claim-state transitions. The public release is a small, partly reconstructed pilot, not the full private interaction history.
+
+See [the positioning update](RELATED_WORK_UPDATE_2026_10_01.md) for the public-corpus boundary, additional comparisons and the distinction between truth and novelty.

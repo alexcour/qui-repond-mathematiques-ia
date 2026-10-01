@@ -1,335 +1,147 @@
-# Longitudinal claim-state transitions in AI-assisted mathematical research
+# Couret-Unification: A Longitudinal Dataset of Claim-State Transitions in AI-Assisted Mathematical Research
 
-> **DRAFT / candidate Data Descriptor.** This manuscript describes the frozen public dataset v1.1.2. It is not a new dataset release, does not alter the frozen CSV snapshot, and does not create a new DOI or HAL record.
+Vetoes, Refutations, Scope Restrictions, Provenance Corrections, and Finite Verifications
 
-**Alexandre Couret**
+Alexandre Couret · Independent researcher, France · ORCID 0009-0000-8246-7146
 
-Independent researcher, France \| ORCID 0009-0000-8246-7146
+> Working Data Descriptor v0.3 · 1 October 2026. Describes frozen dataset v1.1.2. Distinct from the existing manuscript v1.1.1; no new release, submission or identifier is recorded.
 
-Data Descriptor manuscript
+## Abstract
 
-# Abstract
+We describe a longitudinal pilot dataset of mathematical claim-state transitions from the Couret-Unification research programme. The public snapshot contains 21 events involving seven claims and 13 registered sources across four selected trajectories. Each event records changes in epistemic, documentary, workflow or diffusion status, together with source access, evidence state, uncertainty and lineage. The records include human vetoes, non-promotion after a reported statistical test, scope restrictions, finite verification, refutation and provenance restoration. The release provides CSV tables, a codebook and Python checks for structural consistency and file integrity. Private source originals are not redistributed. The corpus is small, non-representative and partly reconstructed retrospectively; it does not estimate model reliability or causal effects of human–AI collaboration. It supports qualitative examination of claim histories and the development of provenance and annotation tools, subject to its source-access and validation limits.
 
-AI-assisted mathematical research can produce claims whose evidential
-status changes as they are tested, restricted, verified, refuted,
-documented, or released. This Data Descriptor presents a frozen
-longitudinal case-study dataset that records such changes as
-source-linked claim-transition events. Version 1.1.2 contains 21 events
-involving 7 claims and 13 registered sources. Each event encodes stable
-claim and source identifiers, temporal ordering, evidence state,
-uncertainty, lineage, and four separate status axes: epistemic,
-diffusion, workflow, and documentary/record status. The public release
-includes normalized CSV records, a codebook, source-boundary
-documentation, a structural validator, mutation tests, and an integrity
-manifest; complete private conversations and private source bytes are
-not redistributed. The dataset is intended for qualitative and
-structural studies of provenance, claim-state tracking, and
-documentation practices in AI-assisted research. Its scale and
-single-program design do not support population-level estimates of model
-reliability, causal effects of human-AI collaboration, or large-scale
-reward-model training.
+## Background and Summary
 
-# Background & Summary
+The dataset records selected changes to mathematical claims during sustained research involving a human researcher and AI systems [1,2]. Its unit of observation is a source-linked transition. A final proof, publication or conversational answer is not treated as a substitute for the sequence of tests, restrictions and documentary corrections that preceded or followed it.
 
-Formal-mathematics datasets and benchmarks typically organize examples
-around mathematical problems, theorem statements, formalizations, or
-proof attempts. miniF2F provides 488 formal Olympiad-level problem
-statements across several proof systems, while ProofNet pairs 371
-undergraduate-level natural-language statements and proofs with Lean
-theorem statements.<sup>6,7</sup>
+The observation unit differs from that of formal mathematics benchmarks. MiniF2F organises 488 formal problem statements across proof systems, whereas ProofNet contains 371 undergraduate mathematics examples combining formal statements with natural-language statements and proofs [3,4]. Process-supervision datasets operate at another level: PRM800K supplies step-level human feedback, and its associated experiments reported an advantage over outcome supervision on the studied MATH tasks [5]. Subsequent experiments identify sensitivities to annotation and evaluation procedures [6]. These results do not establish a training benefit for this small longitudinal corpus.
 
-A related line of work evaluates intermediate reasoning rather than only
-final answers. In the MATH setting, process supervision outperformed
-outcome supervision under the experimental conditions reported by
-Lightman et al., who also released PRM800K with approximately 800,000
-step-level human feedback labels.<sup>8</sup> These resources address
-supervised reasoning at problem or step level; the present dataset
-addresses a different unit of observation: the longitudinal change in
-status of a scientific claim during an ongoing research process.
+Provenance models and structured scientific assertions predate this dataset. PROV-O, micropublications and nanopublications provide established representations of provenance, claims and evidence [7–9]. This work documents a particular protocol–corpus combination, without claiming a new general provenance ontology or priority for preserving negative examples. The public release complements an existing working preprint [2] by exposing the event tables, coding rules and verification procedures.
 
-The representation of provenance and claim-level scientific information
-has established precedents. W3C PROV provides a general model and
-ontology for interoperable provenance; nanopublications separate an
-assertion from its provenance and publication information;
-micropublications model claims, evidence, arguments, and annotations;
-and FAIR and RO-Crate practices emphasize reusable, machine-readable
-research objects and their metadata.<sup>1,2,3,4,5</sup>
+## Methods
 
-The dataset described here does not replace these general frameworks. It
-records a small, source-linked sequence of claim-state transitions
-observed within one AI-assisted mathematical research programme. The
-frozen v1.1.2 snapshot contains 21 events, 13 registered sources, and 7
-claims. Events include proposals, human vetoes, non-promotion after
-statistical testing, restrictions of scope, exact finite verification,
-refutation, documentary regression, provenance restoration, publication,
-and transcription-error detection. The public corpus is deliberately
-non-representative: it is intended to make specific trajectories
-inspectable without implying population-level estimates of AI
-reliability or causal effects of human-AI collaboration.
+### Source selection and event construction
 
-# Methods
+The release is a curated case series from one programme, not an exhaustive log of all interactions. It combines public repository documents, a contemporaneous private copy, internal reports and retrospective reconstructions. The public record does not establish a prospective sampling protocol or a complete denominator of candidate events. The four cases must therefore be treated as purposively selected, with historical source limitations retained in the event notes.
 
-## Unit of analysis and event inclusion
+Each row identifies the claim, its scope and version, the supporting source, the recorded control and an explicit before/after change. A new child identifier preserves a restriction or transcription without silently changing the parent claim. Dates can be days or bounded intervals; event_sequence represents within-day order where available. Source dates and event dates remain separate. Some orderings are reconstructed from logical dependence and are qualified in the notes.
 
-The unit of analysis is a claim-transition event rather than a complete
-conversation, a file, or an AI model. A row records an observable
-before/after change linked to a stable claim_id and source_id. Events
-can affect one or more of four independent state axes. A transition may
-therefore concern mathematical or empirical status, public visibility,
-editorial/release workflow, documentary state, or a combination of these
-dimensions.
+### Claim boundaries and four status dimensions
 
-Rows retain event dates, date granularity, within-day order where
-available, actor type and role where supported, claim scope, control
-type, control result, source-relative evidence state, uncertainty,
-notes, and lineage. claim_parent_id and lineage_relation are used when a
-restricted, split, or transcribed child claim must remain
-distinguishable from its parent. The dataset does not claim exhaustive
-reconstruction of every historical model interaction. Where a primary
-source is unavailable or not redistributable, the available source type
-and uncertainty are recorded rather than silently upgraded.
+Documentary rules were introduced progressively to separate finite calculations, observations, conditional statements and candidate proofs from broader claims. The available evidence describes human vetoes, status files, release gates and structural checks. It does not show that every historical interaction used the same prompt-level constraints or that these rules caused a measurable improvement in model behaviour.
 
-## Claim-boundary governance
+The schema separates four status dimensions. These are distinct fields with cross-field invariants, not statistically independent variables. The controlled labels belong to the axis defined in CODEBOOK.md; PROPOSED, DEMOTED, VERIFIED_LOCAL, OBSERVED and NOT_PROMOTED are epistemic labels, not workflow labels.
 
-Documentary and release rules were progressively introduced during the
-programme to prevent finite computations, exploratory signals,
-conditional statements, or publication decisions from being promoted
-into broader mathematical claims. The release schema explicitly enforces
-that publication or human veto alone cannot alter epistemic status. A
-public release can therefore change diffusion and workflow while leaving
-the mathematical status unchanged. The public snapshot documents this
-governance framework; it does not establish that every historical
-interaction was constrained by identical prompt-level guardrails.
+| Axis | Role | Examples from the codebook |
+| --- | --- | --- |
+| Epistemic | Recorded mathematical or empirical status | PROPOSED, REFUTED, VERIFIED_LOCAL, NOT_PROMOTED, SCOPE_RESTRICTED, VERIFIED_FINITE, PROVED_UNREVIEWED |
+| Workflow | Editorial or release process | PUBLICATION_PLANNED, BLOCKED, INTERNAL_RC, INTERNAL_CORRECTED, RELEASE_READY, RELEASED, HAL_READY |
+| Diffusion | Recorded visibility | PRIVATE, PRIVATE_INTERNAL, PUBLIC |
+| Documentary or record | Condition of the claim record | RECORDED, REPORTED_MISSING, REDERIVED, RESTORED_ANTERIORITY, MISTRANSCRIBED, DETECTED_UNCORRECTED |
 
-## State model
+NA is also an allowed state where prescribed by the schema. The table lists examples rather than replacing the full controlled vocabularies. The field documentary_state describes how the event is documented; it is distinct from record_status_before and record_status_after. Source-relative evidence_state is also separate from the four before/after axes.
 
-The four status axes are encoded separately, with controlled
-vocabularies defined in CODEBOOK.md. Evidence state is recorded as an
-additional source-relative field rather than as a fifth claim-status
-axis.
+### Evidence status and limits of access
 
-| **Axis**             | **Function**                               | **Examples from the controlled vocabulary**                                                                                                                           |
-|----------------------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Epistemic            | Mathematical or empirical state of a claim | NA; PROPOSED; DEMOTED; REFUTED; VERIFIED_LOCAL; OBSERVED; NOT_PROMOTED; CANDIDATE_UNIFORM; SCOPE_RESTRICTED; VERIFIED_FINITE; PROVED_UNREVIEWED; FALSE_AS_STATED      |
-| Diffusion            | Visibility of a claim or artefact          | NA; PRIVATE; PRIVATE_INTERNAL; PUBLIC                                                                                                                                 |
-| Workflow             | Editorial or release process               | NA; PUBLICATION_PLANNED; BLOCKED; INTERNAL_RC; INTERNAL_CORRECTED; RELEASE_READY; RELEASED; HAL_READY                                                                 |
-| Documentary / record | State of the documentary trace             | NA; RECORDED; REPORTED_MISSING; REDERIVED; RESTORED_ANTERIORITY; WITHDRAWN_BY_CHANGELOG; REASSERTED_UNCITED; MISTRANSCRIBED; DETECTED_UNCORRECTED; QUALIFIED_TENDENCY |
+The source register assigns a default evidence state. The codebook distinguishes PRIMARY_PUBLIC, PRIMARY_INTERNAL, PRIMARY_PRIVATE_COPY, SECONDARY_PUBLIC, SECONDARY_INTERNAL and RAW_PRESENT_REPLAYED. An event-level override requires an EVIDENCE_OVERRIDE justification. Primary or secondary status concerns the documented act: a public changelog can be primary for a withdrawal but secondary for the earlier candidate that it reports.
 
-## Source registry and evidence state
+Private conversations, email originals and complete internal reports are not redistributed. Non-public locators use NOT_REDISTRIBUTED::<source_id>; unnecessary private locators were reduced in free-text notes. These measures delimit the public representation without making the source originals accessible. They do not establish complete anonymisation or a general ethical-compliance finding. Unavailable originals, uncertain attribution and unreplayed historical calculations remain limitations of independent verification.
 
-Each source is assigned a source type, access class, date, locator or
-non-redistribution identifier, analytical support statement, default
-evidence state, and release eligibility. Evidence-state values include
-PRIMARY_PUBLIC, PRIMARY_INTERNAL, PRIMARY_PRIVATE_COPY,
-SECONDARY_PUBLIC, SECONDARY_INTERNAL, and RAW_PRESENT_REPLAYED. Primary
-or secondary status is relative to the documented act; it is not a
-global quality score. Event-level overrides require an explicit
-justification in the event record.
+### Novelty and subsequent revisions
 
-## Snapshot freeze and later corrections
+Mathematical validity and novelty are different questions. Identifying an established theorem does not make that theorem false. The v1.1.2 schema has no dedicated novelty_status field, and HOL2-C/D are not among its 21 events. Later HOL2 discussions may motivate source-linked events in a future version, but are not evidence of a novelty-refutation event in this snapshot. A proposed novelty axis is a future schema decision, not an implemented feature of v1.1.2.
 
-The released snapshot is not silently rewritten when later information
-appears. Post-freeze developments are recorded outside the frozen counts
-and can become new versioned events in a future dataset. This rule
-preserves the historical trajectory rather than reconstructing a cleaner
-sequence retrospectively. Documentary correction is also kept distinct
-from mathematical correction: a source can be redated, restored, or
-corrected without changing the epistemic state of the underlying claim.
+## Data Records
 
-## Privacy and source redaction
+The released object is the public reproducibility package [1]. Package v1.1.0, dataset v1.1.2 and existing manuscript v1.1.1 name different objects. The repository contains the following principal records. File paths are relative to its root.
 
-The public release does not redistribute complete private conversations,
-private email messages, or private internal reports. For private or
-internal sources, public locators can be replaced by
-NOT_REDISTRIBUTED::\<source_id\>. Correspondent metadata and other
-third-party identifiers are omitted where specified by the source
-register. The released rows preserve the analytical relation between
-events and sources while withholding the private source bytes. The
-source register also records whether an item is public, private,
-internal, replayed, or reconstructed so that users can distinguish
-direct public evidence from restricted or retrospective evidence.
+| Record | Contents |
+| --- | --- |
+| data/events_v1.1.2.csv | UTF-8 CSV; transition records with 36 fields |
+| data/sources_v1.1.2.csv | UTF-8 CSV; source register with 9 fields |
+| CODEBOOK.md | Fields, controlled vocabularies and structural invariants |
+| POSITIONING_AND_RELATED_WORK.md | Conceptual positioning; no implemented PROV-O or JSON-LD mapping is asserted |
+| PUBLIC_SOURCE_BOUNDARY.md | Public representation and non-redistribution rules |
+| POST_FREEZE_NOTES.md | Contextual or governance notes outside the frozen tables |
+| CONTROL_DESIGN.md | Proposed future study design, not a completed control study |
+| scripts/verify_release.py | Entry point orchestrating validators, mutation tests, descriptive checks and manifest verification |
+| metadata/ and MANIFEST_SHA256.txt | Version settings, frozen-file fingerprints and public-file manifest |
+| CITATION.cff and .zenodo.json | Citation and repository/archive metadata |
 
-## Use of generative AI
+Join the two tables using source_id. Event records also contain event_id, case_id, claim_id, claim_parent_id, lineage_relation, dates, actor attribution, claim wording and scope, control descriptions, before/after states, uncertainty and notes. Blank optional values, NA, UNKNOWN and NOT_REDISTRIBUTED carry different meanings and should not be collapsed into a single missing-value category. The codebook and validator define the allowable values; observed frequencies do not define the schema.
 
-Generative AI systems were used during the underlying research programme
-for proposing, testing, drafting, and reviewing candidate mathematical
-claims; actor_type and actor_role encode these roles where the sources
-support them, and unresolved model identity remains unresolved.
-Generative AI was also used as a drafting and editorial aid during
-preparation of this Data Descriptor, including restructuring, language
-revision, and literature retrieval. The author reviewed the source files
-and cited literature and retains responsibility for the dataset,
-manuscript content, and release decisions.
+Related mathematical artefacts retain their own releases and validation procedures. HOL-01 is a separate exact finite certificate at p=7 [10]. The pilot is not a bundled Lean project or a distribution of all finite-verification scripts, Barning–Hall certificates, private research reports or historical T1′–T4 material. The global T1′–T4 interpretation is superseded; this does not uniformly invalidate every historical component.
 
-# Data Records
+## Data Overview
 
-The frozen dataset v1.1.2 is distributed inside the archived public
-reproducibility package version 1.1.0. The package and dataset use
-separate version numbers: the package version identifies the archived
-software/documentation release, whereas v1.1.2 identifies the frozen
-event/source snapshot contained within it. The archive is cited as a
-data/software record in reference 9.
+The snapshot contains 21 events, seven claim identifiers and 13 source records. Encoded event dates run from 24 July 2025 to 28 September 2026; this is not continuous observation coverage. The source register contains three PUBLIC, nine PRIVATE_INTERNAL and one PRIVATE entry. Eleven source identifiers occur as event foreign keys; two additional source records provide supporting context. Actor-type annotations count 11 UNKNOWN, five HUMAN, three AI and two COLLECTIVE events, not participants.
 
-| **File or object**              | **Contents**                                                                                                 | **Role**             |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------|
-| data/events_v1.1.2.csv          | 21 normalized claim-transition events.                                                                       | Frozen dataset       |
-| data/sources_v1.1.2.csv         | 13 registered sources with access classes, support statements, evidence defaults, and redistribution status. | Frozen dataset       |
-| CODEBOOK.md                     | Field definitions, controlled vocabularies, evidence states, and structural invariants.                      | Public documentation |
-| POSITIONING_AND_RELATED_WORK.md | Scope relative to provenance and claim-representation traditions.                                            | Public documentation |
-| PUBLIC_SOURCE_BOUNDARY.md       | Public/private source boundary and redistribution rules.                                                     | Public documentation |
-| POST_FREEZE_NOTES.md            | Later events and governance notes kept outside the frozen v1.1.2 counts.                                     | Public documentation |
-| CONTROL_DESIGN.md               | Prospective control design for a future controlled study.                                                    | Public documentation |
-| scripts/verify_release.py       | Deterministic structural validation suite.                                                                   | Public code          |
-| MANIFEST_SHA256.txt             | Release integrity manifest.                                                                                  | Public manifest      |
-| CITATION.cff and .zenodo.json   | Citation and archive metadata for the public package.                                                        | Public metadata      |
+| Case | Events | Recorded trajectory |
+| --- | --- | --- |
+| A | 5 | Universal arithmetic claim, veto, demotion/refutation; separate verified local child claim |
+| B | 3 | Reported numerical alignment, non-promotion after a reported test and language restraint |
+| C | 7 | Scope restriction, p=7 child certificate, public release and later documentary regression |
+| D | 6 | Proof record, reported loss, rederivation, provenance restoration and a separate mistranscription |
 
-## Event record structure
+## Technical Validation
 
-events_v1.1.2.csv contains stable identifiers, claim lineage, time and
-ordering fields, source and actor descriptors, a short claim label and
-scope, control metadata, epistemic before/after states, evidence state,
-diffusion before/after states, workflow before/after states,
-documentary/record before/after states, transition_axis, human-guarantor
-fields, transition reasons, uncertainty, and notes. The case_id field
-groups rows into four historical trajectories labelled A-D without
-treating those groups as statistically independent samples.
+The release verification command requires Python 3.10 or later and the standard library. It runs the structural validator, four mutation tests, the descriptive snapshot, metadata checks and SHA-256 manifest verification. On the checked snapshot it reports 517 structural checks passed and finishes with RELEASE VERIFICATION: OK. The mutation tests reject an ambiguous conversation identifier, an invalid initial claim state, an unjustified evidence override and an incorrect primary-source recoding.
 
-## External mathematical artefacts
+```bash
+python3 scripts/verify_release.py
+```
 
-Some event rows refer to mathematical artefacts that are not bundled
-into the frozen dataset. These include the separate HOL-01 finite p=7
-certificate, other finite-verification packages, manuscript records, and
-private mathematical reports. Such artefacts retain their own versions,
-licences, and validation procedures. Later HOL2 and Barning-Hall
-materials post-date the frozen v1.1.2 snapshot and are therefore not
-inserted retrospectively into the 21-event dataset.
+The checks cover identifier uniqueness, controlled vocabularies, event-to-source references, dates, ordering, lineage, state chaining and prescribed axis rules. They confirm that event source references resolve; they do not require every supporting source record to be a direct event foreign key. Selected mutation tests demonstrate detection of those errors, not completeness of the validator or correctness of the mathematical claims.
 
-# Technical Validation
+Case C illustrates a cross-axis invariant. C1 and C2 concern C-UNIFORM, changing CANDIDATE_UNIFORM to SCOPE_RESTRICTED. C3 introduces the child C-P7 with epistemic_before=NA and epistemic_after=VERIFIED_FINITE. C4 subsequently changes its diffusion to PUBLIC while retaining VERIFIED_FINITE. Collapsing this lineage into a single chain ending in PUBLIC would mix claim identities and confuse publication with mathematical validation.
 
-## Structural validation
+File hashes support byte comparisons against a recorded reference. They do not by themselves authenticate private originals, establish real-world event dates or show that the history is complete. The frozen data and validator fingerprints are recorded separately from current metadata. The original v1.1.0 tag is preserved, including its state before DOI insertion into the main branch.
 
-The public command python3 scripts/verify_release.py runs 517 structural
-checks, four mutation tests, descriptive counts, frozen-byte and
-metadata checks, and the release integrity manifest. The checks cover
-unique identifiers, controlled vocabularies, source/access
-compatibility, dates, within-day ordering, lineage, actual axis changes,
-state chaining, claim-birth rules, evidence overrides, and the rule that
-publication or veto alone cannot alter epistemic status. The expected
-final line is RELEASE VERIFICATION: OK.
+Independent blinded recoding and inter-annotator agreement are not established by this release. Historical case-B measurements were not replayed by these structural checks. External mathematical proofs require their own evidence and verification. Successful checks therefore support technical consistency of the public representation, with the semantic and historical limits stated above.
 
-The mutation tests are designed to confirm that selected schema
-violations are detected by the validator. They do not establish
-completeness of the validator, and the 517 checks do not prove the
-mathematical statements represented by the dataset. Mathematical
-certificates, independent replay, literature review, and external peer
-review remain separate forms of validation.
+## Usage Notes
 
-## Deterministic execution and integrity
+Record the selected archive or commit, run the verifier and read the codebook before analysis. Preserve claim lineage, date intervals and source-access qualifications. For a documented main-branch snapshot containing the current identifiers, the following commands reproduce the checked reference. The commit is not relabelled as the original archived tag.
 
-The release validator requires Python 3.10 or later and uses only the
-Python standard library. The package records frozen-file fingerprints
-and a SHA-256 manifest. Historical CSV files and analytical scripts are
-treated as immutable snapshot components; documentation on the current
-branch can change only through versioned maintenance, while an archived
-release remains fixed.
+```bash
+git clone https://github.com/alexcour/qui-repond-mathematiques-ia.git
+cd qui-repond-mathematiques-ia
+git checkout b15eb057dcea32b8290961bdaa22909324f4aa17
+python3 scripts/verify_release.py
+```
 
-## Source-quality limitations
+The records may serve as a small fixture for checking provenance software or an independently designed annotation exercise. They are not an independently adjudicated gold-standard transcript benchmark: full source conversations are not provided and the labels have not been externally validated as such. A classifier evaluation would require an explicit target, a justified input representation, independent label review and a declared policy for restricted sources.
 
-Not all event rows have the same source quality. Some are supported by
-public primary artefacts, while others rely on private contemporary
-copies, internal reports, replay logs, or retrospective reconstruction.
-The source register and event-level uncertainty fields retain these
-distinctions. In particular, the package cannot reconstruct unavailable
-private source bytes, replay every historical experiment, establish
-causal learning effects, or validate every mathematical assertion
-represented in the event corpus.
+Events within the same claim and case are dependent. A random row split can leak related trajectory information into both training and evaluation. Any exploratory task should preserve claim or case groups where possible and report its very small effective sample. This one-program pilot cannot estimate population-level AI reliability, compare model families or establish causal benefits. It is not a demonstrated training resource for process reward models.
 
-# Usage Notes
+Corrections and extensions should be versioned with a source and rationale. Later proof, novelty and provenance events should not be inserted retrospectively into the frozen v1.1.2 tables. A result classified as classical must remain distinct from a mathematically refuted assertion.
 
-The release can be used as a small reference corpus for parsers,
-visualizations, provenance models, or claim-state classifiers that
-operate on longitudinal research records. Users can reconstruct event
-order, inspect which axes changed, compare source classes, or test
-whether a system preserves distinctions between epistemic, documentary,
-diffusion, and workflow states.
+## Data Availability
 
-The dataset is not suitable for estimating general AI hallucination
-rates, model reliability, or causal effects of long-term human-AI
-interaction. Its 21 events are also not sufficient for large-scale
-Process Reward Model training. Uses involving private source
-reconstruction are outside the public release because the underlying
-private conversations and reports are not redistributed. Future versions
-can add new events, but corrections to the frozen v1.1.2 snapshot should
-be versioned rather than silently substituted.
+The event and source tables are publicly available in https://github.com/alexcour/qui-repond-mathematiques-ia and the package archive identified by version DOI https://doi.org/10.5281/zenodo.23079572 [1]. The series DOI is https://doi.org/10.5281/zenodo.23079571. The associated existing manuscript is https://hal.science/hal-05773424 [2]. These identifiers describe the existing objects, not a new Data Descriptor deposit. Private source originals are not redistributed and access to them is not promised.
 
-# Data Availability
+## Code Availability
 
-The frozen v1.1.2 event/source dataset is distributed within Alexandre
-Couret, “Qui répond des mathématiques produites par machine ? - public
-reproducibility package”, version 1.1.0, Zenodo, DOI
-[<u>10.5281/zenodo.23079572</u>](https://doi.org/10.5281/zenodo.23079572)
-(reference 9). The corresponding public repository is
-[<u>alexcour/qui-repond-mathematiques-ia</u>](https://github.com/alexcour/qui-repond-mathematiques-ia).
-The associated manuscript is deposited in HAL as hal-05773424 (reference
-10). Private source bytes referenced by NOT_REDISTRIBUTED::\<source_id\>
-are not part of the public dataset.
+The same repository provides the structural validator, mutation scripts, descriptive audit and release checks. The public code, CSV exports and repository documentation, including CODEBOOK.md, retain the MIT License. The associated existing narrative manuscript is recorded under CC-BY 4.0. This draft does not change these licences or assign rights to private or third-party originals. The verification pipeline uses Python 3.10 or later with the standard library; it does not require a bundled Lean, SageMath or PARI/GP environment.
 
-# Code Availability
+## References
 
-The structural validator, release-readiness checks, mutation tests, and
-supporting scripts are distributed in the same public GitHub/Zenodo
-package as the dataset. The primary reproducibility command is python3
-scripts/verify_release.py under Python 3.10 or later; the validator uses
-the Python standard library only. The public package is currently
-released under the MIT License.
+1. Couret, A. Qui répond des mathématiques produites par machine ? Public reproducibility package v1.1.0, frozen dataset v1.1.2 (2026). https://doi.org/10.5281/zenodo.23079572
 
-# References
+2. Couret, A. Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA. Working preprint, internal v1.1.1 (2026). https://hal.science/hal-05773424
 
-**1.** Lebo, T. et al. PROV-O: The PROV Ontology. W3C Recommendation
-(World Wide Web Consortium, 2013). https://www.w3.org/TR/prov-o/
+3. Zheng, K., Han, J. M. & Polu, S. MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics. ICLR 2022; arXiv:2109.00110v2. https://arxiv.org/abs/2109.00110v2
 
-**2.** Groth, P., Gibson, A. & Velterop, J. The anatomy of a
-nanopublication. Information Services & Use 30, 51-56 (2010).
-https://doi.org/10.3233/ISU-2010-0613
+4. Azerbayev, Z. et al. ProofNet: Autoformalizing and Formally Proving Undergraduate-Level Mathematics. Preprint, arXiv:2302.12433 (2023). https://arxiv.org/abs/2302.12433
 
-**3.** Clark, T., Ciccarese, P. N. & Goble, C. A. Micropublications: a
-semantic model for claims, evidence, arguments and annotations in
-biomedical communications. J. Biomed. Semant. 5, 28 (2014).
-https://doi.org/10.1186/2041-1480-5-28
+5. Lightman, H. et al. Let’s Verify Step by Step. arXiv:2305.20050 (2023). PRM800K data are described in this paper. https://arxiv.org/abs/2305.20050
 
-**4.** Wilkinson, M. D. et al. The FAIR Guiding Principles for
-scientific data management and stewardship. Sci. Data 3, 160018 (2016).
-https://doi.org/10.1038/sdata.2016.18
+6. Zhang, Z. et al. The Lessons of Developing Process Reward Models in Mathematical Reasoning. Findings of ACL 2025, 10495–10516 (2025). https://doi.org/10.18653/v1/2025.findings-acl.547
 
-**5.** Soiland-Reyes, S. et al. Packaging research artefacts with
-RO-Crate. Data Science 5, 97-138 (2022).
-https://doi.org/10.3233/DS-210053
+7. Lebo, T., Sahoo, S. & McGuinness, D. (eds). PROV-O: The PROV Ontology. W3C Recommendation, 30 April 2013. https://www.w3.org/TR/prov-o/
 
-**6.** Zheng, K., Han, J. M. & Polu, S. MiniF2F: a cross-system
-benchmark for formal Olympiad-level mathematics. Preprint at
-https://arxiv.org/abs/2109.00110 (2021).
+8. Clark, T., Ciccarese, P. N. & Goble, C. A. Micropublications: a semantic model for claims, evidence, arguments and annotations in biomedical communications. Journal of Biomedical Semantics 5, 28 (2014). https://doi.org/10.1186/2041-1480-5-28
 
-**7.** Azerbayev, Z., Piotrowski, B., Schoelkopf, H., Ayers, E. W.,
-Radev, D. & Avigad, J. ProofNet: Autoformalizing and formally proving
-undergraduate-level mathematics. Preprint at
-https://arxiv.org/abs/2302.12433 (2023).
+9. Nanopublication Guidelines. Working draft, consulted 1 October 2026. https://nanopub.net/guidelines/working_draft/
 
-**8.** Lightman, H. et al. Let's Verify Step by Step. Preprint at
-https://arxiv.org/abs/2305.20050 (2023).
-
-**9.** Couret, A. Qui répond des mathématiques produites par machine ? -
-public reproducibility package, version 1.1.0. Zenodo (2026).
-https://doi.org/10.5281/zenodo.23079572
-
-**10.** Couret, A. Qui répond des mathématiques produites par machine ?
-Traçabilité longitudinale des transitions de revendications en recherche
-mathématique assistée par IA. HAL hal-05773424 (2026).
-https://hal.science/hal-05773424
-
-# Author Contributions
-
-A.C. conceived the claim-transition dataset, curated and normalized the
-event and source records, defined the release governance and validation
-requirements, reviewed the underlying research artefacts, and prepared
-and revised the manuscript. A.C. is responsible for the final content
-and release decisions.
+10. Couret, A. HOL-01 exact finite monodromy certificate at p=7, version 1.1.1 (2026). https://doi.org/10.5281/zenodo.22978389
