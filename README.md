@@ -59,3 +59,8 @@ Its later uniform explanation is treated as classical context and does not enlar
 ## Citation and rights
 
 The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript has the rights chosen by its author.
+
+
+## PUB-IA-02 candidate Data Descriptor
+
+A separate pre-submission working manuscript is maintained under `manuscripts/PUB-IA-02/`. It describes the frozen v1.1.2 dataset without changing the 21-event / 13-source / 7-claim snapshot. PUB-IA-02 remains a draft: no new DOI or HAL record is asserted by this repository update.
