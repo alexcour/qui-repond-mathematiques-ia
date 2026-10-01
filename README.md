@@ -8,7 +8,7 @@ Public reproducibility package for Alexandre Couretâ€™s scientific working 
 - Manuscript version: **1.1.1**, prepared 30 September 2026, **not peer reviewed**.
 - Frozen dataset version: **1.1.2** â€” 21 events, 13 sources, 7 claims.
 - HAL record: https://hal.science/hal-05773424
-- Zenodo DOI: assigned only after successful archiving of the release.
+- Zenodo DOI: https://doi.org/10.5281/zenodo.23079572
 
 The unit of observation is a sourced claim-state transition. Epistemic, documentary, diffusion and workflow states remain separate. Publication is not proof; documentary correction is not automatically mathematical correction.
 

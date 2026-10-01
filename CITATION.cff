@@ -1,3 +1,4 @@
+doi: "10.5281/zenodo.23079572"
 cff-version: 1.2.0
 message: "If you use this reproducibility package, cite the archived package DOI and the associated HAL preprint."
 title: "Qui rÃ©pond des mathÃ©matiques produites par machine ? â€” public reproducibility package"
