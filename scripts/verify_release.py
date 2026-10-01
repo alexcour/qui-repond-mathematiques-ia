@@ -21,7 +21,7 @@ def write_manifest():
     lines=["# SHA-256 manifest for public release files (manifest and test report excluded)"]
     for p in files_to_hash():
         lines.append(f"{digest(p)}  {p.relative_to(ROOT).as_posix()}")
-    MANIFEST.write_text("\n".join(lines)+"\n", encoding="utf-8")
+    MANIFEST.write_text("\n".join(lines)+"\n", encoding="utf-8", newline="\n")
     print(f"Wrote {MANIFEST.name} with {len(lines)-1} entries")
 
 def check_manifest():
