@@ -1,0 +1,106 @@
+{
+  "pack_version": "V4.4",
+  "date": "2026-10-01",
+  "overall_state": "PARTIAL_GITHUB_EXECUTION_SITE_PENDING",
+  "site_deployed": false,
+  "external_archive_notices_changed": false,
+  "frozen_data_changed": false,
+  "tags_changed": false,
+  "main_updates": [
+    {
+      "repository": "alexcour/couret-finite-verifications",
+      "commit": "0ebade2e701dcf5533b70fb5b8be50d9a703fde8",
+      "commit_url": "https://github.com/alexcour/couret-finite-verifications/commit/0ebade2e701dcf5533b70fb5b8be50d9a703fde8",
+      "changed_files": 5,
+      "ci": [
+        {
+          "id": 36926473885,
+          "name": "verify",
+          "conclusion": "success",
+          "url": "https://github.com/alexcour/couret-finite-verifications/actions/runs/36926473885",
+          "head_sha": "0ebade2e701dcf5533b70fb5b8be50d9a703fde8"
+        }
+      ]
+    },
+    {
+      "repository": "alexcour/hol01-monodromy-p7",
+      "commit": "5f7d9b7a7997278dcf98f5c2a535f4c489b793be",
+      "commit_url": "https://github.com/alexcour/hol01-monodromy-p7/commit/5f7d9b7a7997278dcf98f5c2a535f4c489b793be",
+      "changed_files": 5,
+      "ci": [
+        {
+          "id": 36926555921,
+          "name": "HOL-01 exact finite verification",
+          "conclusion": "success",
+          "url": "https://github.com/alexcour/hol01-monodromy-p7/actions/runs/36926555921",
+          "head_sha": "5f7d9b7a7997278dcf98f5c2a535f4c489b793be"
+        }
+      ]
+    },
+    {
+      "repository": "alexcour/qui-repond-mathematiques-ia",
+      "commit": "302f07ace749569b9e8d400699e24177be726c32",
+      "commit_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/commit/302f07ace749569b9e8d400699e24177be726c32",
+      "changed_files": 8,
+      "ci": [
+        {
+          "id": 36926597681,
+          "name": "Validate public release",
+          "conclusion": "success",
+          "url": "https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/36926597681",
+          "head_sha": "302f07ace749569b9e8d400699e24177be726c32"
+        }
+      ]
+    }
+  ],
+  "blocked_repositories": [
+    {
+      "repository": "couret-interia/interia-quality",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/rh-analytic-framework-t1t4",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/.github",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/interia-suite",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/interia-math-lab",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/interia-style",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    },
+    {
+      "repository": "couret-interia/community",
+      "http_status": 403,
+      "reason": "Resource not accessible by integration",
+      "remote_write_completed": false
+    }
+  ],
+  "data_descriptor": {
+    "pr_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
+    "head_sha": "8112418f1f1d44cef1de8d264e36acc9b10d701c",
+    "status": "PUBLIC_WORKING_DRAFT_IN_EXISTING_PR",
+    "merged": false
+  }
+}

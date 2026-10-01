@@ -1,0 +1,153 @@
+--- a/.zenodo.json
++++ b/.zenodo.json
+@@ -2,13 +2,14 @@
+   "title": "HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph",
+   "version": "1.1.1",
+   "upload_type": "software",
+-  "publication_date": "2026-09-24",
++  "publication_date": "2026-09-26",
+   "access_right": "open",
+   "license": "mit",
+   "language": "eng",
+   "creators": [
+     {
+-      "name": "Couret, Alexandre"
++      "name": "Couret, Alexandre",
++      "orcid": "0009-0000-8246-7146"
+     }
+   ],
+   "description": "Exact, dependency-free finite computational certificate for the reduction of a Barning-Berggren Pythagorean congruence graph modulo 49 to modulo 7 above the root (3,4,5). It verifies a 49-point fibre, monodromy order 686, a translation kernel of order 49, a dihedral linear image of order 14, and two explicit positive loops BABC and BABAA generating an order-343 Heisenberg subgroup. Additional primes are finite regression checks only; p^3 to p^2 checks at p=3,5,7 are exploratory. No theorem for all odd primes or all congruence levels is claimed, and no historical-priority claim is made.",
+--- a/CITATION.cff
++++ b/CITATION.cff
+@@ -3,7 +3,7 @@
+ title: "HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph"
+ type: software
+ version: 1.1.1
+-date-released: 2026-09-24
++date-released: 2026-09-26
+ license: MIT
+ doi: 10.5281/zenodo.22978389
+ identifiers:
+@@ -16,6 +16,7 @@
+ authors:
+   - family-names: Couret
+     given-names: Alexandre
++    orcid: "https://orcid.org/0009-0000-8246-7146"
+ abstract: >-
+   Exact, dependency-free finite computational certificate for the reduction of a
+   Barning-Berggren Pythagorean congruence graph modulo 49 to modulo 7 above the
+@@ -32,3 +33,5 @@
+   - Heisenberg group
+   - exact computation
+   - Schreier graph
++repository-code: "https://github.com/alexcour/hol01-monodromy-p7"
++url: "https://www.couretunification.fr/publications-et-depots/"
+--- /dev/null
++++ b/PUBLICATION_STATUS.md
+@@ -0,0 +1,35 @@
++# Current publication status
++
++Documentary reconciliation prepared on 1 October 2026. This file describes the published reference and the current documentation; it does not create a new release.
++
++| Field | Published reference |
++|---|---|
++| Package | v1.1.1 |
++| GitHub publication (UTC) | 2026-09-26T13:12:24Z |
++| Preparation date | 2026-09-24 |
++| Preserved release tag commit | `ab0195ce56d089cf4e97facc393ae6745b028421` |
++| Version DOI | https://doi.org/10.5281/zenodo.22978389 |
++| Concept DOI | https://doi.org/10.5281/zenodo.22978388 |
++| Associated HAL record | https://hal.science/hal-05766912 |
++| Author | Alexandre Couret — https://orcid.org/0009-0000-8246-7146 |
++| Software licence | MIT |
++
++The preparation date and the GitHub publication timestamp describe different events. Current metadata uses the GitHub publication date for the package release. The archived tag remains unchanged; current documentation may be ahead of that tag. An archive's own deposit date must remain identified as such if it differs.
++
++## Scope
++
++Certificat fini exact de Γ49 → Γ7 : orbites 24 et 1176, fibre 49, monodromie 686, sous-groupe de Heisenberg 343. Les autres premiers et niveaux sont des contrôles finis.
++
++Aucun théorème uniforme de cette release pour tout premier ou tout niveau ; aucune revendication RH/Hilbert–Pólya. HOL-01U est un contexte classique distinct.
++
++## Reproducibility and references
++
++The current-commit CI observed during the audit succeeded: https://github.com/alexcour/hol01-monodromy-p7/actions/runs/36691985386 (commit `1b58a874fa100a7c6586ba8768a76e127ef75be7`). This is an observation about that commit, not a claim that later commits pass. Replay the documented verifiers after each change.
++
++The HAL and Zenodo identifiers above are cross-referenced in the publication documents. Platform notice contents must be checked separately; a populated metadata file is not a live platform audit.
++
++Site: https://www.couretunification.fr/publications-et-depots/
++
++## Maintenance
++
++Preserve published tags and existing DOI identifiers. A documentation update on main does not retroactively alter a cited archive. If changed files must be deposited as an archive, publish a new version after checks and record its actually assigned DOI; never relabel an existing DOI as the identifier of new bytes.
+--- a/README.md
++++ b/README.md
+@@ -113,7 +113,7 @@
+ \delta_p(W_1W_2)=\delta_p(W_1)+\bar W_1\delta_p(W_2).
+ \]
+ 
+-This formula is a starting point for a future uniform theorem. This release does **not** identify the image of that affine representation for arbitrary \(p\) or arbitrary congruence level.
++This cocycle formula is classical structural context; it is not itself a novelty or uniform-image claim. This release does **not** identify the image of that affine representation for arbitrary \(p\) or arbitrary congruence level.
+ 
+ ## Reproduce
+ 
+@@ -191,3 +191,11 @@
+ ## License
+ 
+ MIT License. See `LICENSE`.
++
++## Current publication record
++
++See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for identifiers, dates, archive boundaries and links.
++
++## Consolidated novelty boundary
++
++The underlying Pythagorean dynamics, congruence methods and group-theoretic mechanisms are classical. This release contributes an exact reproducible finite p=7 certificate. A targeted prior-art search did not identify the exact finite package; no priority claim is inferred from that absence.
+--- a/SHA256SUMS.txt
++++ b/SHA256SUMS.txt
+@@ -1,22 +1,23 @@
+-846b4f870e6f99e25925f1dd36dadc7237d2ede73c79b2619d47e9a457be3c8c  ./.github/workflows/verify.yml
+-60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672  ./.gitignore
+-a2ed396ae416bab4e09fd5af5ca4dcb1d1998c284b9bae9cf1caf59cefc4f432  ./.zenodo.json
+-632b5c17498fae5bfc3551bd6c7995aaf3956001ba4e9d1605c65f1587bd2c87  ./AI_ASSISTANCE.md
+-22f593c787d62a29906b789e37b2c66be8683ccb0487e6c4e904f41336dfe953  ./AUTHORS.md
+-2ac1e2b3eef5f58630088ac97f5bf27098e6c4336c409e13640dbba2b761973a  ./CHANGELOG.md
+-c23d6c9db53dcab9a8e750b11d1017e10801615ca5c515e2c463b17d81eac574  ./CITATION.cff
+-a63544e3a1a8da1d9e39987c728c1087687a75627092d2f02891bba12ae65a71  ./finite_prime_regression_check.py
+-fdb8e7dee71d8f6928f572fd26747b0e763734197f8f9133e0a44aa7a72a4697  ./FINITE_REGRESSION_RESULTS.json
+-77f86b4a322781643564d168a8c542754126018d1f726bbe6324a7de8b9d4bfa  ./hol01_certificate.py
+-e4c63dafd1650caca51ec6c60e00834baacbad069d9139e5bacdd60f11cbe2fd  ./HOL01_NOTE.pdf
+-e2bc0a1c1121c6162881462f10ba76242aad590cf835150a36dcce61efa14498  ./HOL01_NOTE.tex
+-b7bc769855664ca3db901deffc6414234ecac86003e3994b420369c17ea6169e  ./HOL01_STATUS.md
+-23ba46660592f4a573dd58e2475e18266431334ad16726e2e5acd95800f91ffe  ./independent_p7_permutation_check.py
+-b475e5dd409d80805bc9d1d0063b3a73498526a373cba4af0c2fb4ed7d7488cb  ./LICENSE
+-214b14b57bc26e6ec26868c2cf009ec5650c4d6ffb597826e596fc8568a837ce  ./PRIOR_ART.md
+-77750467abe6a11d297bb97a28c163272f11e2d92c79a04d783e3492816b9941  ./PROVENANCE.md
+-3df4f135091be8054cd95d520dc98f496a4bba970ab5a7449cf7b8f16b5116ab  ./README.md
+-54b65ee53f0df56ce035997a539ae95eb32802737895d322e2284e57b180eb13  ./REPRODUCIBILITY.md
+-fd4dc089c85609731ff572c22ef29956176a8e1f9142ae05c7b36806ed3cef1f  ./RESEARCH_CONTEXT.md
+-4e7d7a6800a9450ffe9f5dd5fd2659c253ec179db5af58fdcf60c364416a9646  ./RESULTS.json
+-42dffb8bafc9893b0f8756e51300de254f49dcb20e077f682b9d9e44c2857399  ./VERIFY_LOCAL.sh
++846b4f870e6f99e25925f1dd36dadc7237d2ede73c79b2619d47e9a457be3c8c  .github/workflows/verify.yml
++60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672  .gitignore
++8ea850981fece1ab85576abd27385d1345da5ef4a577e66de439f5af7dbe660f  .zenodo.json
++632b5c17498fae5bfc3551bd6c7995aaf3956001ba4e9d1605c65f1587bd2c87  AI_ASSISTANCE.md
++22f593c787d62a29906b789e37b2c66be8683ccb0487e6c4e904f41336dfe953  AUTHORS.md
++2ac1e2b3eef5f58630088ac97f5bf27098e6c4336c409e13640dbba2b761973a  CHANGELOG.md
++30e44bb4cea379a646638193c322c4016d36653567a6ffe0e6bd66e2937549ba  CITATION.cff
++fdb8e7dee71d8f6928f572fd26747b0e763734197f8f9133e0a44aa7a72a4697  FINITE_REGRESSION_RESULTS.json
++e4c63dafd1650caca51ec6c60e00834baacbad069d9139e5bacdd60f11cbe2fd  HOL01_NOTE.pdf
++e2bc0a1c1121c6162881462f10ba76242aad590cf835150a36dcce61efa14498  HOL01_NOTE.tex
++b7bc769855664ca3db901deffc6414234ecac86003e3994b420369c17ea6169e  HOL01_STATUS.md
++b475e5dd409d80805bc9d1d0063b3a73498526a373cba4af0c2fb4ed7d7488cb  LICENSE
++214b14b57bc26e6ec26868c2cf009ec5650c4d6ffb597826e596fc8568a837ce  PRIOR_ART.md
++77750467abe6a11d297bb97a28c163272f11e2d92c79a04d783e3492816b9941  PROVENANCE.md
++43f4ad5d8841bf4eaa1becb71bfb6a0bd525e75e874d088e6a0333b2f8263a45  PUBLICATION_STATUS.md
++2cc0963633e43a8b902132b1b42c8ff556538b1be47e8bc33ff30ee043c54cb1  README.md
++54b65ee53f0df56ce035997a539ae95eb32802737895d322e2284e57b180eb13  REPRODUCIBILITY.md
++fd4dc089c85609731ff572c22ef29956176a8e1f9142ae05c7b36806ed3cef1f  RESEARCH_CONTEXT.md
++4e7d7a6800a9450ffe9f5dd5fd2659c253ec179db5af58fdcf60c364416a9646  RESULTS.json
++42dffb8bafc9893b0f8756e51300de254f49dcb20e077f682b9d9e44c2857399  VERIFY_LOCAL.sh
++a63544e3a1a8da1d9e39987c728c1087687a75627092d2f02891bba12ae65a71  finite_prime_regression_check.py
++77f86b4a322781643564d168a8c542754126018d1f726bbe6324a7de8b9d4bfa  hol01_certificate.py
++23ba46660592f4a573dd58e2475e18266431334ad16726e2e5acd95800f91ffe  independent_p7_permutation_check.py

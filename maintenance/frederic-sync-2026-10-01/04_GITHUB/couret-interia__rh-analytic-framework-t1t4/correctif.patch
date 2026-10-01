@@ -1,0 +1,73 @@
+--- /dev/null
++++ b/CURRENT_STATUS.md
+@@ -0,0 +1,17 @@
++# Current status / Statut actuel
++
++> **Historical research archive — status clarification, 1 October 2026.** The T1′–T4 chain does not establish the Riemann hypothesis. Earlier “complete proof framework”, “Proof Article” and “journal-ready” descriptions below are preserved as historical wording and are superseded as current scientific status. Conditional or unsupported steps must not be presented as a completed proof. The historical DOI 10.5281/zenodo.18802769 identifies the earlier archive, not a newly validated result. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and the [current bounded publications](https://www.couretunification.fr/publications-et-depots/).
++
++> **Archive historique de recherche — clarification du 1er octobre 2026.** La chaîne T1′–T4 n’établit pas l’hypothèse de Riemann. Les anciennes qualifications de « démonstration complète », « Proof Article » et « journal-ready » conservées ci-dessous sont supersédées comme statut scientifique actuel. Le DOI historique 10.5281/zenodo.18802769 identifie l’archive antérieure, sans nouvelle validation du résultat. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles à portée bornée](https://www.couretunification.fr/publications-et-depots/).
++
++## Publications de référence
++
++- [Couret — finite verifications](https://github.com/alexcour/couret-finite-verifications) — v1.0.0 ; DOI [10.5281/zenodo.22978365](https://doi.org/10.5281/zenodo.22978365) ; [HAL](https://hal.science/hal-05766909).
++- [HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph](https://github.com/alexcour/hol01-monodromy-p7) — v1.1.1 ; DOI [10.5281/zenodo.22978389](https://doi.org/10.5281/zenodo.22978389) ; [HAL](https://hal.science/hal-05766912).
++- [Qui répond des mathématiques produites par machine ? — public reproducibility package](https://github.com/alexcour/qui-repond-mathematiques-ia) — v1.1.0 ; DOI [10.5281/zenodo.23079572](https://doi.org/10.5281/zenodo.23079572) ; [HAL](https://hal.science/hal-05773424).
++
++Les tags, DOI, sources et licences historiques restent conservés. Ce raccord documentaire n’établit aucune nouveauté ou validation externe. L’archivage administratif de ce dépôt, le cas échéant, doit intervenir après la correction des surfaces publiques.
++
++## Archival procedure
++
++The handoff proposes archiving this historical repository after the README, rendered pages, About field and release descriptions have been corrected and checked. Do not state that the GitHub repository is already read-only until that setting has actually been applied. Preserve existing tags and identifiers.
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,8 @@
++> **HISTORICAL / SUPERSEDED STATUS — October 2026**
++> This repository preserves an earlier stage of the Couret–Unification research programme. The T1′–T4 chain does not constitute a proof of the Riemann Hypothesis and is not presented as a current journal-ready proof programme. Subsequent audits reclassified several components as classical, conditional, incomplete or primarily methodological. The repository is retained for provenance and reproducibility of the programme’s history.
++>
++> The historical DOI 10.5281/zenodo.18802769 remains attached to the earlier archive. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and [current publications](https://www.couretunification.fr/publications-et-depots/).
++
+ <p align="right">
+   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
+   <sup> · </sup>
+--- a/README_FR.md
++++ b/README_FR.md
+@@ -1,3 +1,5 @@
++> **Archive historique de recherche — clarification du 1er octobre 2026.** La chaîne T1′–T4 n’établit pas l’hypothèse de Riemann. Les anciennes qualifications de « démonstration complète », « Proof Article » et « journal-ready » conservées ci-dessous sont supersédées comme statut scientifique actuel. Le DOI historique 10.5281/zenodo.18802769 identifie l’archive antérieure, sans nouvelle validation du résultat. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles à portée bornée](https://www.couretunification.fr/publications-et-depots/).
++
+ <p align="right">
+   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
+   <sup> · </sup>
+--- a/README_arxiv.md
++++ b/README_arxiv.md
+@@ -1,3 +1,5 @@
++> **Historical research archive — status clarification, 1 October 2026.** The T1′–T4 chain does not establish the Riemann hypothesis. Earlier “complete proof framework”, “Proof Article” and “journal-ready” descriptions below are preserved as historical wording and are superseded as current scientific status. Conditional or unsupported steps must not be presented as a completed proof. The historical DOI 10.5281/zenodo.18802769 identifies the earlier archive, not a newly validated result. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and the [current bounded publications](https://www.couretunification.fr/publications-et-depots/).
++
+ # A Modular Analytic Framework for the Riemann Hypothesis — Proof-only package (T2, T3, Appendix)
+ 
+ **InterIA Mathematical Collective.**
+--- a/README_hero.md
++++ b/README_hero.md
+@@ -1,3 +1,5 @@
++> **Historical research archive — status clarification, 1 October 2026.** The T1′–T4 chain does not establish the Riemann hypothesis. Earlier “complete proof framework”, “Proof Article” and “journal-ready” descriptions below are preserved as historical wording and are superseded as current scientific status. Conditional or unsupported steps must not be presented as a completed proof. The historical DOI 10.5281/zenodo.18802769 identifies the earlier archive, not a newly validated result. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and the [current bounded publications](https://www.couretunification.fr/publications-et-depots/).
++
+ <p align="right">
+   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
+   <sup> · </sup>
+--- a/README_hero_FR.md
++++ b/README_hero_FR.md
+@@ -1,3 +1,5 @@
++> **Archive historique de recherche — clarification du 1er octobre 2026.** La chaîne T1′–T4 n’établit pas l’hypothèse de Riemann. Les anciennes qualifications de « démonstration complète », « Proof Article » et « journal-ready » conservées ci-dessous sont supersédées comme statut scientifique actuel. Le DOI historique 10.5281/zenodo.18802769 identifie l’archive antérieure, sans nouvelle validation du résultat. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles à portée bornée](https://www.couretunification.fr/publications-et-depots/).
++
+ <p align="right">
+   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
+   <sup> · </sup>
+--- a/index.html
++++ b/index.html
+@@ -91,6 +91,7 @@
+ </style>
+ </head>
+ <body>
++<aside style="padding:20px;border:3px solid #a16a1c;background:#fff8e8;color:#20252a"><strong>Status clarification — 1 October 2026.</strong> T1′–T4 does not establish RH. Previous proof/journal-ready descriptions are historical and superseded. <a href="https://github.com/couret-interia/rh-analytic-framework-t1t4/blob/main/CURRENT_STATUS.md">Current status</a> · <a href="https://www.couretunification.fr/publications-et-depots/">Current publications</a>.</aside>
+ <div class="wrap">
+   <div class="hero">
+     <h1>
