@@ -145,3 +145,15 @@ The same repository provides the structural validator, mutation scripts, descrip
 9. Nanopublication Guidelines. Working draft, consulted 1 October 2026. https://nanopub.net/guidelines/working_draft/
 
 10. Couret, A. HOL-01 exact finite monodromy certificate at p=7, version 1.1.1 (2026). https://doi.org/10.5281/zenodo.22978389
+
+## Author Contributions
+
+> **Pre-submission placeholder — author input required.** Do not infer contributions from repository history. Complete the author-contribution declaration in the active Scientific Data submission workflow; retain a manuscript statement only if the submission system in use requires it.
+
+## Competing Interests
+
+> **Pre-submission placeholder — author declaration required.** No competing-interest declaration is inferred from public repository contents. Complete the declaration in the active Scientific Data submission workflow; add manuscript text only if the submission system in use requires it.
+
+## Funding
+
+> **Pre-submission placeholder — author declaration required.** No funding source, grant, or absence of external funding is inferred from public repository contents. Replace this placeholder with the author's accurate funding statement before submission.
