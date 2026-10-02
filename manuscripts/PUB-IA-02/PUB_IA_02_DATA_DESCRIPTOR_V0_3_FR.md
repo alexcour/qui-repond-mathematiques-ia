@@ -145,3 +145,15 @@ Le même dépôt fournit validateur structurel, scripts de mutation, audit descr
 9. Nanopublication Guidelines. Working draft, consulted 1 October 2026. https://nanopub.net/guidelines/working_draft/
 
 10. Couret, A. HOL-01 exact finite monodromy certificate at p=7, version 1.1.1 (2026). https://doi.org/10.5281/zenodo.22978389
+
+## Contributions de l’auteur
+
+> **Emplacement pré-soumission — saisie de l’auteur requise.** Ne pas déduire les contributions de l’historique du dépôt. Compléter la déclaration de contributions dans le workflow de soumission Scientific Data actif ; conserver une déclaration dans le manuscrit uniquement si le système de soumission utilisé l’exige.
+
+## Intérêts concurrents
+
+> **Emplacement pré-soumission — déclaration de l’auteur requise.** Aucune déclaration d’intérêts concurrents n’est déduite du contenu public du dépôt. Compléter cette déclaration dans le workflow de soumission Scientific Data actif ; n’ajouter un texte au manuscrit que si le système de soumission utilisé l’exige.
+
+## Financement
+
+> **Emplacement pré-soumission — déclaration de l’auteur requise.** Aucune source de financement, subvention ni absence de financement externe n’est déduite du contenu public du dépôt. Remplacer cet emplacement par la déclaration exacte de l’auteur avant toute soumission.
