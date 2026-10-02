@@ -24,7 +24,7 @@ Aucune nouveauté générale, aucun problème ouvert résolu ou avancé. HOL-01 
 
 ## Reproducibility and references
 
-The current-commit CI observed during the audit succeeded: https://github.com/alexcour/couret-finite-verifications/actions/runs/36692071789 (commit `7d508f3925226d892a1084c9c86878eb10644f2e`). This is an observation about that commit, not a claim that later commits pass. Replay the documented verifiers after each change.
+The documentation-maintenance commit on main passed CI on 1 October 2026: https://github.com/alexcour/couret-finite-verifications/actions/runs/36926473885 (commit `0ebade2e701dcf5533b70fb5b8be50d9a703fde8`). Replay the documented verifiers after subsequent changes.
 
 The HAL and Zenodo identifiers above are cross-referenced in the publication documents. Platform notice contents must be checked separately; a populated metadata file is not a live platform audit.
 

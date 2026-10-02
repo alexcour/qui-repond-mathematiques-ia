@@ -24,7 +24,7 @@ Aucun théorème uniforme de cette release pour tout premier ou tout niveau ; au
 
 ## Reproducibility and references
 
-The current-commit CI observed during the audit succeeded: https://github.com/alexcour/hol01-monodromy-p7/actions/runs/36691985386 (commit `1b58a874fa100a7c6586ba8768a76e127ef75be7`). This is an observation about that commit, not a claim that later commits pass. Replay the documented verifiers after each change.
+The documentation-maintenance commit on main passed CI on 1 October 2026: https://github.com/alexcour/hol01-monodromy-p7/actions/runs/36926555921 (commit `5f7d9b7a7997278dcf98f5c2a535f4c489b793be`). Replay the documented verifiers after subsequent changes.
 
 The HAL and Zenodo identifiers above are cross-referenced in the publication documents. Platform notice contents must be checked separately; a populated metadata file is not a live platform audit.
 

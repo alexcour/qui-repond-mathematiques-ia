@@ -24,7 +24,7 @@ Ni ontologie nouvelle de provenance, ni estimation représentative de la fiabili
 
 ## Reproducibility and references
 
-The current-commit CI observed during the audit succeeded: https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/36858787774 (commit `b15eb057dcea32b8290961bdaa22909324f4aa17`). This is an observation about that commit, not a claim that later commits pass. Replay the documented verifiers after each change.
+The documentation-maintenance commit on main passed CI on 1 October 2026: https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/36926597681 (commit `302f07ace749569b9e8d400699e24177be726c32`). Replay the documented verifiers after subsequent changes.
 
 The HAL and Zenodo identifiers above are cross-referenced in the publication documents. Platform notice contents must be checked separately; a populated metadata file is not a live platform audit.
 
