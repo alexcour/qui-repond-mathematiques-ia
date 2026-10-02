@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "audit_session_date": "2026-10-01",
+  "purpose": "Référentiel courant après maintenance documentaire de trois main ; notices externes et site encore à vérifier.",
+  "canonical_site": "https://www.couretunification.fr",
+  "author": {
+    "name": "Alexandre Couret",
+    "orcid": "https://orcid.org/0009-0000-8246-7146",
+    "affiliation": "Chercheur indépendant, France"
+  },
+  "publications": [
+    {
+      "id": "PUB-01",
+      "slug": "couret-finite-verifications",
+      "title": "Couret — finite verifications",
+      "version": "1.0.0",
+      "doi": "10.5281/zenodo.22978365",
+      "concept": "10.5281/zenodo.22978364",
+      "hal": "hal-05766909",
+      "release": "2026-09-26T13:09:24Z",
+      "prepared": "2026-09-21",
+      "main": "0ebade2e701dcf5533b70fb5b8be50d9a703fde8",
+      "tag_sha": "5045d7fae0a52bc9efd54c36ac0c0e7a23b1a79e",
+      "ci": 36926473885,
+      "ci_date": "2026-10-01T21:07:40Z",
+      "scope": "Calculs et vérifications finis : carrés consécutifs, courses de premiers modulo 30, Fourier/Parseval et congruences pythagoriciennes. Exact, flottant, tronqué et conditionnel sont distingués.",
+      "value": "Base de tests de régression et exemples pédagogiques de reproductibilité et de portée des calculs.",
+      "nonclaim": "Aucune nouveauté générale, aucun problème ouvert résolu ou avancé. HOL-01 et le registre G30 ne font pas partie de cette release.",
+      "repository": "alexcour/couret-finite-verifications",
+      "url": "https://github.com/alexcour/couret-finite-verifications",
+      "orcid": "https://orcid.org/0009-0000-8246-7146",
+      "author": "Alexandre Couret",
+      "affiliation": "Chercheur indépendant, France",
+      "software_license": "MIT",
+      "observed_impact": "Aucun impact externe établi par cet audit.",
+      "release_url": "https://github.com/alexcour/couret-finite-verifications/releases/tag/v1.0.0",
+      "hal_url": "https://hal.science/hal-05766909",
+      "ci_url": "https://github.com/alexcour/couret-finite-verifications/actions/runs/36926473885",
+      "checks": {
+        "github_readme_and_metadata": "LU_DIRECTEMENT",
+        "github_release": "LU_DIRECTEMENT",
+        "github_ci_current_commit": "SUCCESS_CONSTATE",
+        "zenodo_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "hal_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "orcid_works": "NON_LU"
+      },
+      "maintenance_release": {
+        "suggested_version": "1.0.1",
+        "state": "NON_CREEE",
+        "doi": null,
+        "date": null,
+        "condition": "Vérifier que le tag est libre ; choisir une vraie date de publication ; relever le DOI réellement attribué."
+      },
+      "main_before_maintenance": "7d508f3925226d892a1084c9c86878eb10644f2e",
+      "maintenance_on_main": "APPLIED"
+    },
+    {
+      "id": "PUB-02",
+      "slug": "hol01-monodromy-p7",
+      "title": "HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph",
+      "version": "1.1.1",
+      "doi": "10.5281/zenodo.22978389",
+      "concept": "10.5281/zenodo.22978388",
+      "hal": "hal-05766912",
+      "release": "2026-09-26T13:12:24Z",
+      "prepared": "2026-09-24",
+      "main": "5f7d9b7a7997278dcf98f5c2a535f4c489b793be",
+      "tag_sha": "ab0195ce56d089cf4e97facc393ae6745b028421",
+      "ci": 36926555921,
+      "ci_date": "2026-10-01T21:08:13Z",
+      "scope": "Certificat fini exact de Γ49 → Γ7 : orbites 24 et 1176, fibre 49, monodromie 686, sous-groupe de Heisenberg 343. Les autres premiers et niveaux sont des contrôles finis.",
+      "value": "Cas-test pour comparer des implémentations, étudier des actions affines finies et préparer une formalisation ciblée.",
+      "nonclaim": "Aucun théorème uniforme de cette release pour tout premier ou tout niveau ; aucune revendication RH/Hilbert–Pólya. HOL-01U est un contexte classique distinct.",
+      "repository": "alexcour/hol01-monodromy-p7",
+      "url": "https://github.com/alexcour/hol01-monodromy-p7",
+      "orcid": "https://orcid.org/0009-0000-8246-7146",
+      "author": "Alexandre Couret",
+      "affiliation": "Chercheur indépendant, France",
+      "software_license": "MIT",
+      "observed_impact": "Aucun impact externe établi par cet audit.",
+      "release_url": "https://github.com/alexcour/hol01-monodromy-p7/releases/tag/v1.1.1",
+      "hal_url": "https://hal.science/hal-05766912",
+      "ci_url": "https://github.com/alexcour/hol01-monodromy-p7/actions/runs/36926555921",
+      "checks": {
+        "github_readme_and_metadata": "LU_DIRECTEMENT",
+        "github_release": "LU_DIRECTEMENT",
+        "github_ci_current_commit": "SUCCESS_CONSTATE",
+        "zenodo_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "hal_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "orcid_works": "NON_LU"
+      },
+      "maintenance_release": {
+        "suggested_version": "1.1.2",
+        "state": "NON_CREEE",
+        "doi": null,
+        "date": null,
+        "condition": "Vérifier que le tag est libre ; choisir une vraie date de publication ; relever le DOI réellement attribué."
+      },
+      "main_before_maintenance": "1b58a874fa100a7c6586ba8768a76e127ef75be7",
+      "maintenance_on_main": "APPLIED"
+    },
+    {
+      "id": "PUB-IA",
+      "slug": "qui-repond-mathematiques-ia",
+      "title": "Qui répond des mathématiques produites par machine ? — public reproducibility package",
+      "version": "1.1.0",
+      "doi": "10.5281/zenodo.23079572",
+      "concept": "10.5281/zenodo.23079571",
+      "hal": "hal-05773424",
+      "release": "2026-10-01T09:41:32Z",
+      "prepared": "2026-09-30",
+      "main": "302f07ace749569b9e8d400699e24177be726c32",
+      "tag_sha": "8b512f7ded1c484325d4eedd04264a11c0ce6293",
+      "ci": 36926597681,
+      "ci_date": "2026-10-01T21:08:24Z",
+      "manuscript_version": "1.1.1",
+      "dataset_version": "1.1.2",
+      "manuscript_license": "CC-BY-4.0",
+      "scope": "Étude pilote longitudinale : 21 événements, 13 sources, 7 revendications. Quatre axes distincts : scientifique, documentaire, diffusion, travail. Contrôles structurels et tests de mutation.",
+      "value": "Corpus pilote pour analyser les changements de portée et de statut, les corrections, et tester ultérieurement un protocole de qualification.",
+      "nonclaim": "Ni ontologie nouvelle de provenance, ni estimation représentative de la fiabilité des IA, ni supériorité causale d’une méthode ou d’un modèle, ni progrès démontré vers RH.",
+      "repository": "alexcour/qui-repond-mathematiques-ia",
+      "url": "https://github.com/alexcour/qui-repond-mathematiques-ia",
+      "orcid": "https://orcid.org/0009-0000-8246-7146",
+      "author": "Alexandre Couret",
+      "affiliation": "Chercheur indépendant, France",
+      "software_license": "MIT",
+      "observed_impact": "Aucun impact externe établi par cet audit.",
+      "release_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/releases/tag/v1.1.0",
+      "hal_url": "https://hal.science/hal-05773424",
+      "ci_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/36926597681",
+      "checks": {
+        "github_readme_and_metadata": "LU_DIRECTEMENT",
+        "github_release": "LU_DIRECTEMENT",
+        "github_ci_current_commit": "SUCCESS_CONSTATE",
+        "zenodo_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "hal_notice": "IDENTIFIANT_RECOUPE_NOTICE_NON_LUE",
+        "orcid_works": "NON_LU"
+      },
+      "maintenance_release": {
+        "suggested_version": "1.1.1",
+        "state": "NON_CREEE",
+        "doi": null,
+        "date": null,
+        "condition": "Vérifier que le tag est libre ; choisir une vraie date de publication ; relever le DOI réellement attribué."
+      },
+      "main_before_maintenance": "b15eb057dcea32b8290961bdaa22909324f4aa17",
+      "maintenance_on_main": "APPLIED"
+    }
+  ],
+  "legacy": [
+    {
+      "id": "HIST-T1T4",
+      "repository": "couret-interia/rh-analytic-framework-t1t4",
+      "doi": "10.5281/zenodo.18802769",
+      "status": "ARCHIVE_HISTORIQUE_A_ANNOTER",
+      "current_claim": "La chaîne T1′–T4 ne démontre pas RH ; ancienne qualification journal-ready supersédée."
+    },
+    {
+      "id": "BERNARD",
+      "doi": null,
+      "record_url": null,
+      "status": "NOTICE_SIGNALEE_NON_IDENTIFIEE",
+      "known_public_page": "https://www.couretunification.fr/fonds-bernard-couret/",
+      "action": "Retrouver la notice existante depuis le compte déposant et ses courriels. Ne pas créer de doublon."
+    }
+  ],
+  "handoff_revision": 4,
+  "hol2_status": {
+    "scope": "p premier impair ; n≥1",
+    "split_cases": [
+      "p=3,n=1"
+    ],
+    "non_split_cases": [
+      "n=1,p≥5",
+      "n≥2,p impair"
+    ],
+    "novelty": "NONE_CLAIMED",
+    "public_release_created": false
+  },
+  "editorial_projects": [
+    {
+      "title_working": "Couret-Unification: A Longitudinal Dataset of Claim-State Transitions in AI-Assisted Mathematical Research",
+      "subtitle_working": "Vetoes, Refutations, Scope Restrictions, Provenance Corrections, and Finite Verifications",
+      "publication_status": "PUBLIC_WORKING_DRAFT_IN_REVIEW",
+      "scientific_status": "longitudinal_case_study_dataset",
+      "dataset_version_described": "1.1.2",
+      "event_count": 21,
+      "source_count": 13,
+      "claim_count": 7,
+      "novelty_boundary": "protocol-corpus combination only; no general provenance ontology claim",
+      "doi": null,
+      "hal_id": null,
+      "release_tag": null,
+      "must_not_create_identifiers": true,
+      "gates_open": [
+        "author_account_of_sampling_and_coding",
+        "author_declarations_and_source_rights",
+        "journal_choice_and_format",
+        "live_archive_metadata_check",
+        "submission_preparation"
+      ],
+      "draft_version": "0.3",
+      "draft_languages": [
+        "FR",
+        "EN"
+      ],
+      "submission_title_option": "Longitudinal data on mathematical claim transitions in research assisted by artificial intelligence",
+      "existing_dataset_license": "MIT",
+      "repository_documentation_license": "MIT",
+      "existing_manuscript_license": "CC-BY-4.0",
+      "hol2_in_frozen_dataset": false,
+      "bibliography": "Core references checked in this revision; broader prior-art review remains open.",
+      "license_decision": "Current MIT split established. A different future licence would require a separate explicit decision; no relicensing is required by this pack.",
+      "pull_request": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
+      "submitted": false
+    }
+  ],
+  "pack_version": "V4.4"
+}
