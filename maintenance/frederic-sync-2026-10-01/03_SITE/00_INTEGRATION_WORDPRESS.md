@@ -25,7 +25,7 @@ Remplacer les blocs de synthèse scientifique et les anciennes accroches de preu
 
 Cible : /publications-et-depots/
 
-Remplacement du corps éditorial ; vérifier le slug réel avant insertion. Ne pas conserver en parallèle les anciennes cartes répétées.
+Réconciliation ciblée du corps éditorial ; vérifier le slug réel avant insertion. La page publique contient déjà les sections Cayley `0.1.3-review` et CONT `0.1.0-review` : les préserver, fusionner le fragment avec l’état public courant et ne pas rétablir un snapshot plus ancien. Pour Cayley, conserver la CI actuelle `verify #4` sur le commit de fusion `5e31912134fb6303639facedf4150d32255795bd` (run `37585311793`). Ne pas déployer depuis ce kit sans relecture de la prévisualisation.
 
 ### 03_VERIFIER
 
