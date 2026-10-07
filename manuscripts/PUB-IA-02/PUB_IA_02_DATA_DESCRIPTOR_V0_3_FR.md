@@ -148,12 +148,12 @@ Le même dépôt fournit validateur structurel, scripts de mutation, audit descr
 
 ## Contributions de l’auteur
 
-> **Emplacement pré-soumission — saisie de l’auteur requise.** Ne pas déduire les contributions de l’historique du dépôt. Compléter la déclaration de contributions dans le workflow de soumission Scientific Data actif ; conserver une déclaration dans le manuscrit uniquement si le système de soumission utilisé l’exige.
+Alexandre Couret a rédigé le manuscrit avec une aide importante de l’intelligence artificielle dans le processus de rédaction.
 
 ## Intérêts concurrents
 
-> **Emplacement pré-soumission — déclaration de l’auteur requise.** Aucune déclaration d’intérêts concurrents n’est déduite du contenu public du dépôt. Compléter cette déclaration dans le workflow de soumission Scientific Data actif ; n’ajouter un texte au manuscrit que si le système de soumission utilisé l’exige.
+L’auteur déclare n’avoir aucun intérêt concurrent.
 
 ## Financement
 
-> **Emplacement pré-soumission — déclaration de l’auteur requise.** Aucune source de financement, subvention ni absence de financement externe n’est déduite du contenu public du dépôt. Remplacer cet emplacement par la déclaration exacte de l’auteur avant toute soumission.
+Ce travail a été financé sur les moyens personnels de l’auteur, sans financement externe.

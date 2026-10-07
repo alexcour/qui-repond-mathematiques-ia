@@ -148,12 +148,12 @@ The same repository provides the structural validator, mutation scripts, descrip
 
 ## Author Contributions
 
-> **Pre-submission placeholder — author input required.** Do not infer contributions from repository history. Complete the author-contribution declaration in the active Scientific Data submission workflow; retain a manuscript statement only if the submission system in use requires it.
+Alexandre Couret wrote the manuscript with substantial assistance from artificial intelligence in the writing process.
 
 ## Competing Interests
 
-> **Pre-submission placeholder — author declaration required.** No competing-interest declaration is inferred from public repository contents. Complete the declaration in the active Scientific Data submission workflow; add manuscript text only if the submission system in use requires it.
+The author declares no competing interests.
 
 ## Funding
 
-> **Pre-submission placeholder — author declaration required.** No funding source, grant, or absence of external funding is inferred from public repository contents. Replace this placeholder with the author's accurate funding statement before submission.
+This work was funded by the author's personal resources, without external funding.
