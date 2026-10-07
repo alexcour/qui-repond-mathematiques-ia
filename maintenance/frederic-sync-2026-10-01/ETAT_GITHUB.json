@@ -55,9 +55,20 @@
   ],
   "data_descriptor": {
     "pr_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
-    "head_sha": "8112418f1f1d44cef1de8d264e36acc9b10d701c",
-    "status": "PUBLIC_WORKING_DRAFT_IN_EXISTING_PR",
-    "merged": false
+    "head_sha": "12917f4e0a02cb7a6c0f1d4d791d6bf8b54982b6",
+    "status": "PUBLIC_WORKING_DRAFT_MERGED_TO_MAIN",
+    "merged": true,
+    "merge_commit_sha": "020c1e07a5c3a6b74d644ac556631fc1e1e7852f",
+    "merged_at": "2026-10-07T19:07:28Z",
+    "main_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/tree/020c1e07a5c3a6b74d644ac556631fc1e1e7852f/manuscripts/PUB-IA-02",
+    "ci": {
+      "id": 37672100663,
+      "name": "Validate public release",
+      "run_number": 70,
+      "conclusion": "success",
+      "url": "https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/37672100663",
+      "head_sha": "020c1e07a5c3a6b74d644ac556631fc1e1e7852f"
+    }
   },
   "reconciled_on": "2026-10-07",
   "historical_blocked_repositories": [

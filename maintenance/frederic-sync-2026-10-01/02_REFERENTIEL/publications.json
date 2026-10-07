@@ -213,7 +213,12 @@
       "bibliography": "Core references checked in this revision; broader prior-art review remains open.",
       "license_decision": "Current MIT split established. A different future licence would require a separate explicit decision; no relicensing is required by this pack.",
       "pull_request": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
-      "submitted": false
+      "submitted": false,
+      "repository_status": "PUBLIC_WORKING_DRAFT_MERGED_TO_MAIN",
+      "merged": true,
+      "head_sha": "12917f4e0a02cb7a6c0f1d4d791d6bf8b54982b6",
+      "merge_commit_sha": "020c1e07a5c3a6b74d644ac556631fc1e1e7852f",
+      "merged_at": "2026-10-07T19:07:28Z"
     }
   ],
   "pack_version": "V4.4"
