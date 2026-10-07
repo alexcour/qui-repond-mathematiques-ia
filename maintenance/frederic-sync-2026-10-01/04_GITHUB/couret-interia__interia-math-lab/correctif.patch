@@ -1,65 +1,19 @@
---- /dev/null
+# RECONCILIATION STATUS — verified 7 October 2026
+# Repository: couret-interia/interia-math-lab
+# Public main commit observed: 324557950854e4e128caf5ac049c75fc315e8648
+# State: PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE
+#
+# README_FR.md, README_hero.md, README_hero_FR.md and pages/index.html already carry
+# the intended status clarification. CURRENT_STATUS.md carries the current status
+# block but is still missing the archival procedure. The public README.md contains
+# a later, compatible status wording and must be preserved rather than overwritten.
+#
+# Residual patch only:
+--- a/CURRENT_STATUS.md
 +++ b/CURRENT_STATUS.md
-@@ -0,0 +1,17 @@
-+# Current status / Statut actuel
-+
-+> **Exploratory and historical material — status clarification, 1 October 2026.** Spectral and λ-related experiments are not a proof of RH, a universal rigidity theorem or a validated general invariant. Reported historical numerical values require their precise data, pipeline and replay. Superseded global interpretations are not current claims. This does not withdraw independently stated finite arithmetic identities or finite normalisations. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and the [current publications](https://www.couretunification.fr/publications-et-depots/).
-+
-+> **Exploration et archives — clarification du 1er octobre 2026.** Les expériences spectrales et la ligne λ ne constituent ni preuve de RH, ni théorème de rigidité universelle, ni invariant général validé. Les valeurs historiques rapportées demandent données, protocole et rejeu identifiés. Les interprétations globales démotionnées ne sont pas des revendications actuelles. Les identités et normalisations finies justifiées séparément conservent leur propre portée. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles](https://www.couretunification.fr/publications-et-depots/).
-+
-+## Publications de référence
-+
-+- [Couret — finite verifications](https://github.com/alexcour/couret-finite-verifications) — v1.0.0 ; DOI [10.5281/zenodo.22978365](https://doi.org/10.5281/zenodo.22978365) ; [HAL](https://hal.science/hal-05766909).
-+- [HOL-01: Exact finite monodromy certificate at p=7 for a Barning-Berggren congruence graph](https://github.com/alexcour/hol01-monodromy-p7) — v1.1.1 ; DOI [10.5281/zenodo.22978389](https://doi.org/10.5281/zenodo.22978389) ; [HAL](https://hal.science/hal-05766912).
-+- [Qui répond des mathématiques produites par machine ? — public reproducibility package](https://github.com/alexcour/qui-repond-mathematiques-ia) — v1.1.0 ; DOI [10.5281/zenodo.23079572](https://doi.org/10.5281/zenodo.23079572) ; [HAL](https://hal.science/hal-05773424).
-+
-+Les tags, DOI, sources et licences historiques restent conservés. Ce raccord documentaire n’établit aucune nouveauté ou validation externe. L’archivage administratif de ce dépôt, le cas échéant, doit intervenir après la correction des surfaces publiques.
+@@
+ Les tags, DOI, sources et licences historiques restent conservés. Ce raccord documentaire n’établit aucune nouveauté ou validation externe. L’archivage administratif de ce dépôt, le cas échéant, doit intervenir après la correction des surfaces publiques.
 +
 +## Archival procedure
 +
 +The handoff proposes archiving this historical repository after the README, rendered pages, About field and release descriptions have been corrected and checked. Do not state that the GitHub repository is already read-only until that setting has actually been applied. Preserve existing tags and identifiers.
---- a/README.md
-+++ b/README.md
-@@ -1,3 +1,8 @@
-+> **HISTORICAL EXPLORATORY LAB — October 2026.**
-+> This repository records exploratory work from an earlier stage of the programme. Former λ-type interpretations were subsequently restricted, falsified or demoted where indicated. Nothing in this repository constitutes a current claim toward RH or Hilbert–Pólya. Current verified outputs are maintained separately. The finite identities retain their independently stated scope.
-+>
-+> Administrative archival is to follow the documentation update and public checks. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and [current publications](https://www.couretunification.fr/publications-et-depots/).
-+
- <p align="right">
-   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
-   <sup> · </sup>
---- a/README_FR.md
-+++ b/README_FR.md
-@@ -1,3 +1,5 @@
-+> **Exploration et archives — clarification du 1er octobre 2026.** Les expériences spectrales et la ligne λ ne constituent ni preuve de RH, ni théorème de rigidité universelle, ni invariant général validé. Les valeurs historiques rapportées demandent données, protocole et rejeu identifiés. Les interprétations globales démotionnées ne sont pas des revendications actuelles. Les identités et normalisations finies justifiées séparément conservent leur propre portée. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles](https://www.couretunification.fr/publications-et-depots/).
-+
- <p align="right">
-   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
-   <sup> · </sup>
---- a/README_hero.md
-+++ b/README_hero.md
-@@ -1,3 +1,5 @@
-+> **Exploratory and historical material — status clarification, 1 October 2026.** Spectral and λ-related experiments are not a proof of RH, a universal rigidity theorem or a validated general invariant. Reported historical numerical values require their precise data, pipeline and replay. Superseded global interpretations are not current claims. This does not withdraw independently stated finite arithmetic identities or finite normalisations. See [CURRENT_STATUS.md](CURRENT_STATUS.md) and the [current publications](https://www.couretunification.fr/publications-et-depots/).
-+
- <p align="right">
-   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
-   <sup> · </sup>
---- a/README_hero_FR.md
-+++ b/README_hero_FR.md
-@@ -1,3 +1,5 @@
-+> **Exploration et archives — clarification du 1er octobre 2026.** Les expériences spectrales et la ligne λ ne constituent ni preuve de RH, ni théorème de rigidité universelle, ni invariant général validé. Les valeurs historiques rapportées demandent données, protocole et rejeu identifiés. Les interprétations globales démotionnées ne sont pas des revendications actuelles. Les identités et normalisations finies justifiées séparément conservent leur propre portée. Voir [CURRENT_STATUS.md](CURRENT_STATUS.md) et les [publications actuelles](https://www.couretunification.fr/publications-et-depots/).
-+
- <p align="right">
-   <a href="https://github.com/couret-interia/community/discussions"><img alt="💬 Discussion" src="https://img.shields.io/badge/💬-Discussion-1e88e5?labelColor=0d47a1"></a>
-   <sup> · </sup>
---- a/pages/index.html
-+++ b/pages/index.html
-@@ -5,6 +5,7 @@
-     <title>InterIA Math Lab — Results Gallery</title>
-   </head>
-   <body>
-+<aside style="padding:20px;border:3px solid #a16a1c;background:#fff8e8;color:#20252a"><strong>Status clarification — 1 October 2026.</strong> Exploratory historical experiments. No validated universal λ invariant or proof of RH is claimed. <a href="https://github.com/couret-interia/interia-math-lab/blob/main/CURRENT_STATUS.md">Current status</a> · <a href="https://www.couretunification.fr/publications-et-depots/">Current publications</a>.</aside>
-     <h1>InterIA Math Lab — Results Gallery</h1>
-     <p>This page can list key experimental results, figures and reports.</p>
-     <ul>
