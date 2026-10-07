@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "mode": "PREPARE_NON_DEPLOYE",
+  "mode": "RECONCILED_HANDOFF_NON_DEPLOYE",
   "repositories": [
     {
       "repository": "alexcour/couret-finite-verifications",
@@ -137,7 +137,7 @@
     {
       "repository": "couret-interia/interia-quality",
       "key": "couret-interia__interia-quality",
-      "observed_main_commit": "13579d66c09b83b078fb748db12ed0b9c902a38d",
+      "observed_main_commit": "7627c038a469e0e2709d70fc24a940c6763e6bbf",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -152,12 +152,15 @@
           "payload": "04_GITHUB/couret-interia__interia-quality/apres/README.md"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
     },
     {
       "repository": "couret-interia/rh-analytic-framework-t1t4",
       "key": "couret-interia__rh-analytic-framework-t1t4",
-      "observed_main_commit": "a35db6119fedc16eb089609e82fc9a2593fc3864",
+      "observed_main_commit": "2ce7cca9b79c537a1893ee316ccf5c7be6af8912",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -202,12 +205,17 @@
           "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/index.html"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ],
+      "patch_policy": "APPLY_RESIDUAL_PATCH_ONLY_PRESERVE_LATER_PUBLIC_WORDING"
     },
     {
       "repository": "couret-interia/.github",
       "key": "couret-interia__.github",
-      "observed_main_commit": "5bdde4f6f4c3212ccdd43f7051df33c0c6c2d539",
+      "observed_main_commit": "c73b3d334e110f16454050087b9ac0476ce11fcf",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -234,12 +242,15 @@
           "payload": "04_GITHUB/couret-interia__.github/apres/profile/README_FR.md"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_WITH_PUBLIC_ENRICHMENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
     },
     {
       "repository": "couret-interia/interia-suite",
       "key": "couret-interia__interia-suite",
-      "observed_main_commit": "15dbe5787f0c4d28279011b10f60d2cd18ad6d79",
+      "observed_main_commit": "3228cc752eb096c50e08f4bd2ad3264c5b64fc6f",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -254,12 +265,15 @@
           "payload": "04_GITHUB/couret-interia__interia-suite/apres/README.md"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
     },
     {
       "repository": "couret-interia/interia-math-lab",
       "key": "couret-interia__interia-math-lab",
-      "observed_main_commit": "0f8fc2ee97e177a210bcf74d792b4727e24c472e",
+      "observed_main_commit": "324557950854e4e128caf5ac049c75fc315e8648",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -298,12 +312,17 @@
           "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/pages/index.html"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ],
+      "patch_policy": "APPLY_RESIDUAL_PATCH_ONLY_PRESERVE_LATER_PUBLIC_WORDING"
     },
     {
       "repository": "couret-interia/interia-style",
       "key": "couret-interia__interia-style",
-      "observed_main_commit": "5a0932160d85b392c6203e13690c2859d4460c69",
+      "observed_main_commit": "bef61ec90f20b90ed9775b5b71c7c8f60a782ae5",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -336,12 +355,15 @@
           "payload": "04_GITHUB/couret-interia__interia-style/apres/README_hero_FR.md"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
     },
     {
       "repository": "couret-interia/community",
       "key": "couret-interia__community",
-      "observed_main_commit": "f66c53eafbdaeab22dee337a1cdcb59ab05216f8",
+      "observed_main_commit": "fbdc12a656f98bdffdff99c54b32b7484fbb53aa",
       "files": [
         {
           "path": "CURRENT_STATUS.md",
@@ -362,8 +384,12 @@
           "payload": "04_GITHUB/couret-interia__community/apres/README_FR.md"
         }
       ],
-      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
     }
   ],
-  "revision": 2
+  "revision": 3,
+  "reconciled_on": "2026-10-07"
 }
