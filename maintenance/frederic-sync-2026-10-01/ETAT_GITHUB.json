@@ -1,7 +1,7 @@
 {
   "pack_version": "V4.4",
   "date": "2026-10-01",
-  "overall_state": "PARTIAL_GITHUB_EXECUTION_SITE_PENDING",
+  "overall_state": "PUBLIC_RECONCILED_SITE_NOT_DEPLOYED_TWO_ARCHIVAL_STEPS_PENDING",
   "site_deployed": false,
   "external_archive_notices_changed": false,
   "frozen_data_changed": false,
@@ -53,7 +53,14 @@
       ]
     }
   ],
-  "blocked_repositories": [
+  "data_descriptor": {
+    "pr_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
+    "head_sha": "8112418f1f1d44cef1de8d264e36acc9b10d701c",
+    "status": "PUBLIC_WORKING_DRAFT_IN_EXISTING_PR",
+    "merged": false
+  },
+  "reconciled_on": "2026-10-07",
+  "historical_blocked_repositories": [
     {
       "repository": "couret-interia/interia-quality",
       "http_status": 403,
@@ -97,10 +104,66 @@
       "remote_write_completed": false
     }
   ],
-  "data_descriptor": {
-    "pr_url": "https://github.com/alexcour/qui-repond-mathematiques-ia/pull/1",
-    "head_sha": "8112418f1f1d44cef1de8d264e36acc9b10d701c",
-    "status": "PUBLIC_WORKING_DRAFT_IN_EXISTING_PR",
-    "merged": false
+  "couret_interia_reconciliation": [
+    {
+      "repository": "couret-interia/interia-quality",
+      "public_main_commit": "7627c038a469e0e2709d70fc24a940c6763e6bbf",
+      "state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": []
+    },
+    {
+      "repository": "couret-interia/rh-analytic-framework-t1t4",
+      "public_main_commit": "2ce7cca9b79c537a1893ee316ccf5c7be6af8912",
+      "state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ]
+    },
+    {
+      "repository": "couret-interia/.github",
+      "public_main_commit": "c73b3d334e110f16454050087b9ac0476ce11fcf",
+      "state": "APPLIED_WITH_PUBLIC_ENRICHMENT",
+      "pending_files": []
+    },
+    {
+      "repository": "couret-interia/interia-suite",
+      "public_main_commit": "3228cc752eb096c50e08f4bd2ad3264c5b64fc6f",
+      "state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": []
+    },
+    {
+      "repository": "couret-interia/interia-math-lab",
+      "public_main_commit": "324557950854e4e128caf5ac049c75fc315e8648",
+      "state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ]
+    },
+    {
+      "repository": "couret-interia/interia-style",
+      "public_main_commit": "bef61ec90f20b90ed9775b5b71c7c8f60a782ae5",
+      "state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": []
+    },
+    {
+      "repository": "couret-interia/community",
+      "public_main_commit": "fbdc12a656f98bdffdff99c54b32b7484fbb53aa",
+      "state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": []
+    }
+  ],
+  "site_handoff": {
+    "site_deployed": false,
+    "publication_page_observed_on": "2026-10-07",
+    "preserve_public_sections": [
+      "Cayley 0.1.3-review",
+      "CONT 0.1.0-review"
+    ],
+    "cayley_ci": {
+      "run_id": 37585311793,
+      "run_name": "verify #4",
+      "head_sha": "5e31912134fb6303639facedf4150d32255795bd"
+    },
+    "note": "PR #2 reconciles the handoff only; no site deployment is performed."
   }
 }
