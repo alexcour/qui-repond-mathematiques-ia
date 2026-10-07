@@ -4,15 +4,15 @@ Ce dossier est le sous-ensemble public du pack Frédéric V4.4. Il fournit les f
 
 ## État réel
 
-Les trois dépôts scientifiques `alexcour/couret-finite-verifications`, `alexcour/hol01-monodromy-p7` et `alexcour/qui-repond-mathematiques-ia` ont été mis à jour sur main ; leurs CI ont réussi sur les nouveaux commits. Les sept écritures `couret-interia` ont été refusées par l’intégration GitHub (HTTP 403, Resource not accessible by integration). Les commits et contrôles sont dans [ETAT_GITHUB.json](ETAT_GITHUB.json).
+Les trois dépôts scientifiques `alexcour/couret-finite-verifications`, `alexcour/hol01-monodromy-p7` et `alexcour/qui-repond-mathematiques-ia` ont été mis à jour sur main ; leurs CI ont réussi sur les commits enregistrés. Les refus HTTP 403 observés le 1er octobre sur les sept dépôts `couret-interia` sont conservés comme historique, mais ils ne décrivent plus l’état public courant. Le contrôle du 7 octobre constate que `community`, `interia-quality`, `interia-style` et `interia-suite` portent intégralement le raccord prévu ; `.github` porte le raccord avec une formulation publique ultérieure compatible ; `interia-math-lab` et `rh-analytic-framework-t1t4` portent les bandeaux de statut mais restent privés de la seule procédure d’archivage dans `CURRENT_STATUS.md`. Les commits et contrôles sont dans [ETAT_GITHUB.json](ETAT_GITHUB.json).
 
-Les trois correctifs alexcour sont conservés pour traçabilité et reconnus comme déjà appliqués par le script. Les sept autres restent à exécuter avec un accès habilité. Les paramètres About, topics, Pages et descriptions de releases sont distincts des fichiers. Aucun tag ou DOI historique n’est réécrit.
+Les correctifs `couret-interia` ont donc été reclassés : aucun patch restant pour les cinq dépôts raccordés ; patch résiduel limité à la procédure d’archivage pour les deux dépôts historiques. Ne pas réappliquer les patches complets du 1er octobre ni écraser les formulations publiques plus récentes. Les paramètres About, topics, Pages et descriptions de releases restent distincts des fichiers. Aucun tag ou DOI historique n’est réécrit.
 
 ## Utilisation
 
 1. Télécharger cette branche ou la cloner. Ouvrir `03_SITE/APERCU_INDEX.html` localement et lire `03_SITE/00_INTEGRATION_WORDPRESS.md` puis `PLAN_PAGE_PAR_PAGE.html`. Les 17 fragments sont du contenu pour les pages existantes, pas un nouveau thème WordPress.
 2. Sauvegarder le site, intégrer en prévisualisation, vérifier les titres, liens, équations et le rendu mobile. Publier le journal seulement après l’intervention effective.
-3. Pour un dépôt couret-interia, cloner son état courant dans un répertoire séparé et créer une branche de maintenance. Depuis ce clone, exécuter le script ci-dessous en adaptant le chemin réel du kit et le nom du dépôt.
+3. Pour un dépôt `couret-interia`, consulter d’abord `04_GITHUB/manifest_correctifs.json`. Si l’état est `APPLIED_*`, aucun patch ne reste à appliquer. Pour `interia-math-lab` et `rh-analytic-framework-t1t4`, appliquer uniquement le `correctif.patch` résiduel après vérification du `CURRENT_STATUS.md` courant ; préserver les autres formulations publiques.
 
 ```bash
 python3 /chemin/du/kit/04_GITHUB/appliquer_correctifs.py --repo couret-interia/interia-math-lab --worktree .
