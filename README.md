@@ -1,5 +1,11 @@
 # Qui répond des mathématiques produites par machine
 
+<!-- research-vision-20261016 -->
+> **Research programme and ambitions · 16 October 2026**  
+> [Présentation en français](https://github.com/alexcour/couret-finite-verifications/blob/main/RESEARCH_VISION_FR.md) · [Research vision in English](https://github.com/alexcour/couret-finite-verifications/blob/main/RESEARCH_VISION_EN.md)  
+> Our research dream is to turn a result into reasoning that can be recovered, tested and passed on. Claim histories and corrections contribute to making research recoverable across sessions. The presentation distinguishes existing work, proposed experiments and research dreams. This repository retains its own claim and review boundaries.
+<!-- /research-vision-20261016 -->
+
 Public reproducibility package for Alexandre Couret’s scientific working preprint *Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA*.
 
 - Author: Alexandre Couret, independent researcher, France.
