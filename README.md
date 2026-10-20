@@ -1,5 +1,7 @@
 # Qui répond des mathématiques produites par machine
 
+> **Authorship clarification · 20 October 2026.** Alexandre Couret is the author responsible for this programme. First-person plural wording in the linked research vision refers to his workflow with AI assistants; it does not designate a team of human coauthors or an independent validation. AI systems are assistance tools, not authors.
+
 Public reproducibility package for Alexandre Couret’s scientific working preprint *Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA*.
 
 - Author: Alexandre Couret, independent researcher, France.
