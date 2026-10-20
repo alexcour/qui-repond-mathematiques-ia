@@ -3,8 +3,10 @@
 <!-- research-vision-20261016 -->
 > **Research programme and ambitions · 16 October 2026**  
 > [Présentation en français](https://github.com/alexcour/couret-finite-verifications/blob/main/RESEARCH_VISION_FR.md) · [Research vision in English](https://github.com/alexcour/couret-finite-verifications/blob/main/RESEARCH_VISION_EN.md)  
-> Our research dream is to turn a result into reasoning that can be recovered, tested and passed on. Claim histories and corrections contribute to making research recoverable across sessions. The presentation distinguishes existing work, proposed experiments and research dreams. This repository retains its own claim and review boundaries.
+> The aim of this programme is to make results recoverable, testable and transferable. Claim histories and corrections contribute to making research recoverable across sessions. The presentation distinguishes existing work, proposed experiments and research dreams. This repository retains its own claim and review boundaries.
 <!-- /research-vision-20261016 -->
+
+> **Authorship clarification · 20 October 2026.** Alexandre Couret is the author responsible for this programme. First-person plural wording in the linked research vision refers to his workflow with AI assistants; it does not designate a team of human coauthors or an independent validation. AI systems are assistance tools, not authors.
 
 Public reproducibility package for Alexandre Couret’s scientific working preprint *Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA*.
 
