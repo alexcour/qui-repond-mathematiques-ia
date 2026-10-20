@@ -1,0 +1,26 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vérifier les objets publics</title><style>body{font:17px/1.6 system-ui,sans-serif;max-width:1080px;margin:auto;padding:40px;color:#203041;background:#f8fafb}h1,h2,h3{line-height:1.2;color:#143d52}h1{font-size:36px}h2{margin-top:36px}a{color:#116378}table{border-collapse:collapse;width:100%;font-size:14px;background:white;margin:20px 0}th,td{padding:12px;border:1px solid #d9e2e7;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#e9f0f3}pre{white-space:pre-wrap;background:#e9f0f3;padding:16px;font-size:14px}code{font-size:.88em}.notice{border-left:5px solid #ba862f;background:#fff9eb;padding:14px 20px;margin:22px 0}.card{background:#fff;border:1px solid #d9e2e7;padding:20px;margin:20px 0;border-radius:8px}.small{font-size:14px;color:#516574}.tag{font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:#586d7b}@media(max-width:700px){body{padding:18px}table{font-size:12px}td,th{padding:7px}h1{font-size:28px}}@media print{body{padding:0;background:white;font-size:11pt}a{color:inherit}.notice,.card,tr{break-inside:avoid}h2,h3{break-after:avoid}}</style><body><p class="tag">Couret–Unification · Pack Frédéric · 1er octobre 2026</p><h1>Vérifier les objets publics</h1>
+<section><p>Choisir d’abord un objet, puis sa version. Pour une reproduction publiée, partir du tag cité. Pour examiner les corrections documentaires ultérieures, utiliser le commit explicitement indiqué dans le dépôt.</p>
+<h2>Vérifications finies v1.0.0</h2>
+<pre>git clone https://github.com/alexcour/couret-finite-verifications.git
+cd couret-finite-verifications
+git checkout v1.0.0
+python -m pip install -r requirements.txt
+bash VERIFY_LOCAL.sh</pre>
+<p>Les sorties portent sur les calculs bornés inclus dans le paquet. Les évaluations flottantes et les prédictions conditionnelles conservent leur statut propre.</p>
+<h2>HOL-01 v1.1.1</h2>
+<pre>git clone https://github.com/alexcour/hol01-monodromy-p7.git
+cd hol01-monodromy-p7
+git checkout v1.1.1
+python3 hol01_certificate.py --check RESULTS.json
+python3 independent_p7_permutation_check.py
+python3 finite_prime_regression_check.py --check FINITE_REGRESSION_RESULTS.json</pre>
+<p>Le certificat principal porte sur p=7. Les autres exécutions sont des contrôles finis supplémentaires ; elles ne démontrent pas un énoncé uniforme.</p>
+<h2>Traçabilité humain–IA v1.1.0</h2>
+<pre>git clone https://github.com/alexcour/qui-repond-mathematiques-ia.git
+cd qui-repond-mathematiques-ia
+git checkout v1.1.0
+python3 scripts/verify_release.py</pre>
+<p>La sortie attendue est « RELEASE VERIFICATION: OK ». Les 517 contrôles structurels, les quatre tests de mutation et les décomptes du corpus vérifient la cohérence du paquet ; ils ne valident pas les mathématiques rapportées.</p>
+<p>Le tag publié précède l’ajout ultérieur des DOI sur main. Cette différence de métadonnées est documentée ; le tag demeure conservé.</p>
+<h2>Comment citer un contrôle</h2>
+<p>Indiquer le dépôt, le commit ou tag, la commande, l’environnement, la date et la sortie. Pour Lean, ajouter l’énoncé exact, les imports, la toolchain et les axiomes utilisés. Un badge vert ne remplace pas ces éléments.</p></section></body></html>

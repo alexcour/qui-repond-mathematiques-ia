@@ -1,0 +1,27 @@
+<!-- Bloc préparé pour intégration ciblée ; préserver les autres contenus de la page. -->
+
+<section><p>Choisir d’abord un objet, puis sa version. Pour une reproduction publiée, partir du tag cité. Pour examiner les corrections documentaires ultérieures, utiliser le commit explicitement indiqué dans le dépôt.</p>
+<h2>Vérifications finies v1.0.0</h2>
+<pre>git clone https://github.com/alexcour/couret-finite-verifications.git
+cd couret-finite-verifications
+git checkout v1.0.0
+python -m pip install -r requirements.txt
+bash VERIFY_LOCAL.sh</pre>
+<p>Les sorties portent sur les calculs bornés inclus dans le paquet. Les évaluations flottantes et les prédictions conditionnelles conservent leur statut propre.</p>
+<h2>HOL-01 v1.1.1</h2>
+<pre>git clone https://github.com/alexcour/hol01-monodromy-p7.git
+cd hol01-monodromy-p7
+git checkout v1.1.1
+python3 hol01_certificate.py --check RESULTS.json
+python3 independent_p7_permutation_check.py
+python3 finite_prime_regression_check.py --check FINITE_REGRESSION_RESULTS.json</pre>
+<p>Le certificat principal porte sur p=7. Les autres exécutions sont des contrôles finis supplémentaires ; elles ne démontrent pas un énoncé uniforme.</p>
+<h2>Traçabilité humain–IA v1.1.0</h2>
+<pre>git clone https://github.com/alexcour/qui-repond-mathematiques-ia.git
+cd qui-repond-mathematiques-ia
+git checkout v1.1.0
+python3 scripts/verify_release.py</pre>
+<p>La sortie attendue est « RELEASE VERIFICATION: OK ». Les 517 contrôles structurels, les quatre tests de mutation et les décomptes du corpus vérifient la cohérence du paquet ; ils ne valident pas les mathématiques rapportées.</p>
+<p>Le tag publié précède l’ajout ultérieur des DOI sur main. Cette différence de métadonnées est documentée ; le tag demeure conservé.</p>
+<h2>Comment citer un contrôle</h2>
+<p>Indiquer le dépôt, le commit ou tag, la commande, l’environnement, la date et la sortie. Pour Lean, ajouter l’énoncé exact, les imports, la toolchain et les axiomes utilisés. Un badge vert ne remplace pas ces éléments.</p></section>

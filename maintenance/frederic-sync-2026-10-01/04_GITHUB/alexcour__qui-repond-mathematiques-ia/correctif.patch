@@ -1,0 +1,234 @@
+--- a/.zenodo.json
++++ b/.zenodo.json
+@@ -1,7 +1,7 @@
+ {
+   "title": "Qui répond des mathématiques produites par machine ? — public reproducibility package",
+   "version": "1.1.0",
+-  "publication_date": "2026-09-30",
++  "publication_date": "2026-10-01",
+   "upload_type": "software",
+   "access_right": "open",
+   "license": "mit",
+--- a/CITATION.cff
++++ b/CITATION.cff
+@@ -8,7 +8,7 @@
+     given-names: Alexandre
+     orcid: "https://orcid.org/0009-0000-8246-7146"
+ version: 1.1.0
+-date-released: 2026-09-30
++date-released: 2026-10-01
+ license: MIT
+ repository-code: "https://github.com/alexcour/qui-repond-mathematiques-ia"
+ abstract: >-
+--- a/MANIFEST_SHA256.txt
++++ b/MANIFEST_SHA256.txt
+@@ -4,28 +4,34 @@
+ c9572a119f60c10ab420080c7953040610fbfa38c5173feddf3b8353d1aa210e  .github/ISSUE_TEMPLATE/replication-report.yml
+ 39efbe24aacec58c90552a016bf866f6aa1409e492c845a85d673e2fb28c8088  .github/workflows/validate.yml
+ cbfde9d5f3e538498c2d3a8e1511c3f9caf731b78e2206114bd4e2224f3acd2d  .gitignore
+-ae98f2537e36af7f8072da72c758aa67187d23fb75b8c50032a096156ee8243f  .zenodo.json
++a6697cd95fd5eb2ea716fab6abaaa3d1bb24378adb9251732f7c866748da029f  .zenodo.json
+ 3c3de054f6c3bde709f29f44d1920b48571a11ff481dd59eceaca905d61ef11d  CHANGELOG.md
+-889c32abfa7f9e2413598180f82b8fc2782ad1937bbd882f35b8127f148376e3  CITATION.cff
++6a6cc0749a4b3746d25c99d1938716a287bcdd6257f04d0d051b4c6da6a5e682  CITATION.cff
+ 00f1d19513addf6a458006656469335d4035060864494d95f5c0aef1e9b94b8e  CODEBOOK.md
+ 8daa34336cd8f8d9201f51cb8c454a0464b2d4d98c317a65a29933d0e6c1d9be  CONTRIBUTING.md
+ b2fa2daa0104679a198e2fdfb6c1e20974ee313c8232b4d81a33c0e3be2418a0  CONTROL_DESIGN.md
+-044ca3aff5eaecaee299e2eec445d11bf96c93c449109fd2e956a590252c46cb  data/events_v1.1.2.csv
+-45f16c121a3b406a733764a3a5fce6b1a54bc21b5386a7c2760e02ab5ddf3b56  data/sources_v1.1.2.csv
+ b475e5dd409d80805bc9d1d0063b3a73498526a373cba4af0c2fb4ed7d7488cb  LICENSE
+ 4cdc24f22ca4b422d3f40d2712803ebacc5c9839a4191b4479cbce2f5a6b3b7e  LIMITATIONS_AND_NEXT_VERSION.md
+-48e5afc5be630badbe89dead5e247f1b9a1a1ce72759d5943e78265d00ba5ecb  metadata/FROZEN_SNAPSHOT_SHA256.json
+-fc53e8e0c3f78764dabc72e96648d9165f7b4bd865b18d757e8a420c9cafe43c  metadata/HAL_METADATA.txt
+-344f3ef5666d85394cc8cefa4c65dbc9e755e521f5114b3d1ec53464dedcba06  metadata/PUBLICATION_CONFIG.json
+-609994dae249a966c59bcb8260ae2e83b6a4342ad03436456813273ffd88debd  metadata/README.md
+ 5d8d40876ce8a7e22a572ad9381ae37b46cc09c1b6186dd9590bab61102dd801  POSITIONING_AND_RELATED_WORK.md
+ 4010938b0c9c10d49201432df72df83ad2304cc28c0d6eea06425396be343622  POST_FREEZE_NOTES.md
++b69a24001b67fa22ca5f7ea1a6e1f2034f5f63d0a5caf913ae7f7eb50bff39cc  POTENTIAL_VALUE_AND_EVALUATION.md
++69d9c1247e54480b46335dc44f6fec6e83293ba097c2ea64a81c66c58132076a  PUBLICATION_STATUS.md
+ 28594cae6196df05ee2d2edca3ea2628c32dc73b5bce11358619158baaafdf40  PUBLIC_SOURCE_BOUNDARY.md
+-00aff0e439e154517228f9f5c9b8f528320584db686f3be17e730df65159d3b8  README.md
++9ac82a7e97d6243f50434e23ff93b214b38de03ccc36fc1a202e6e17c472582b  README.md
++981af9568555a516d3a3bfb2ba9299c70f7f9f8a5964d2654a256d961ec0cf5a  RELATED_WORK_UPDATE_2026_10_01.md
+ ec5589e0e67911c917c2387b529715cf3c23dfbb35ae1f0ef2fe848c2f88588a  RELEASE_NOTES_v1.0.0.md
+ 85fd08205891ac821fc9f8b719d9c50b83cae0c11e0a122ce786ae16775ad442  RELEASE_NOTES_v1.1.0.md
+ 1b11e0d49795e768a8a3a3057d533fc9826fba524316ef2a403e7943997d8070  REPRODUCIBILITY.md
+ 28a5f2dea40e71048e663fff037263c6592853f417a9b85f3f2c25d10d2a2a59  RESEARCH_AGENDA_COLLABORATION.md
++beeef1d379869090bc850b81b6b400ef53073448d4b15e202a6d87b0a4698c5e  TEST_REPORT_v1.0.0.txt
++c9873e23ecac7266cc969974d3dfeac00cc700ff894dcd3afe3df6eb82a90dd0  TEST_STATUS.md
++1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8  VERSION
++044ca3aff5eaecaee299e2eec445d11bf96c93c449109fd2e956a590252c46cb  data/events_v1.1.2.csv
++45f16c121a3b406a733764a3a5fce6b1a54bc21b5386a7c2760e02ab5ddf3b56  data/sources_v1.1.2.csv
++48e5afc5be630badbe89dead5e247f1b9a1a1ce72759d5943e78265d00ba5ecb  metadata/FROZEN_SNAPSHOT_SHA256.json
++fc53e8e0c3f78764dabc72e96648d9165f7b4bd865b18d757e8a420c9cafe43c  metadata/HAL_METADATA.txt
++7c4d9ad5f976ac3d152be47d20e835db2deab037ad5127a5e701a339427c25de  metadata/PUBLICATION_CONFIG.json
++609994dae249a966c59bcb8260ae2e83b6a4342ad03436456813273ffd88debd  metadata/README.md
+ a60d267d0f3cd8012cf0faf7f37b4113db0eaa485f3f5924acd5eade5707133e  scripts/analyze_public.py
+ a88e6ebdadf5ca72d3f491558736fc2081b4f44fbdec510fab2bbeec09018f16  scripts/check_metadata.py
+ beaaa30ccb68fc06aecde65312978aea94ffcfd4aceddc85d5bc69d8c5e83572  scripts/check_release_ready.py
+@@ -33,6 +39,3 @@
+ 9a7845ce76d94e9241f3b2e0c7a16774c651acc4dbf064e7d089db77688151d4  scripts/test_mutations_v1_1_2.py
+ 7b4265f1774a390aeb2b56a430a9d67fedf780083d8d013002c7988aa183b540  scripts/validate_events_v1_1_2.py
+ 5733aba71406c41ddd59f4e080371bc6554dbe795c8164cacdc2b99fa5cce55e  scripts/verify_release.py
+-beeef1d379869090bc850b81b6b400ef53073448d4b15e202a6d87b0a4698c5e  TEST_REPORT_v1.0.0.txt
+-c9873e23ecac7266cc969974d3dfeac00cc700ff894dcd3afe3df6eb82a90dd0  TEST_STATUS.md
+-1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8  VERSION
+--- /dev/null
++++ b/POTENTIAL_VALUE_AND_EVALUATION.md
+@@ -0,0 +1,25 @@
++# Potential value and evaluation
++
++This pilot may make mathematical-claim audits more precise by preserving intermediate vetoes, scope restrictions, non-promoting tests and documentary corrections. Its unit of observation is a sourced claim-state transition, with separate epistemic, documentary, diffusion and workflow states.
++
++## Potential uses
++
++1. Locate when and why a claim changed scope, rather than reconstructing the history from a final paper alone.
++2. Distinguish mathematical refutation from a missing witness, a publication decision or a provenance correction.
++3. Assign bounded verification tasks and preserve disagreements for independent review.
++4. Provide training examples about evidence, conditional statements and AI-assisted research accountability.
++
++These are proposed uses, not measured benefits or evidence of external adoption. Generic provenance, claim/evidence models and audit trails predate this work. Any originality remains limited to this particular protocol/corpus combination and subject to prior-art review.
++
++## Tests that would support practical value
++
++| Question | Evaluation | Limit |
++|---|---|---|
++| Can independent readers reconstruct the coding? | Independently code at least 6 of 21 events; keep disagreements and report agreement under a predeclared rule | Agreement alone does not establish mathematical truth |
++| Does the protocol transfer? | Apply the declared codebook to an external corpus and record needed changes | This pilot is not representative |
++| Does it help auditing? | Compare predeclared audit tasks with and without the protocol; measure correct findings, witness retrieval and attribution errors | No causal effect is measured by the current retrospective corpus |
++| Can critiques change the record? | Publish sourced corrections as later events or version notes | Preserve the frozen historical snapshot |
++
++The available evidence is the executable descriptive pilot and its structural checks. Those checks validate data invariants; they do not certify every underlying claim, model reliability, a new provenance ontology or progress toward an open mathematical problem.
++
++See POSITIONING_AND_RELATED_WORK.md for historical positioning, CONTROL_DESIGN.md for prospective controls and RESEARCH_AGENDA_COLLABORATION.md for bounded tasks. Corpus version 1.1.2 remains unchanged.
+--- /dev/null
++++ b/PUBLICATION_STATUS.md
+@@ -0,0 +1,37 @@
++# Current publication status
++
++Documentary reconciliation prepared on 1 October 2026. This file describes the published reference and the current documentation; it does not create a new release.
++
++| Field | Published reference |
++|---|---|
++| Package | v1.1.0 |
++| GitHub publication (UTC) | 2026-10-01T09:41:32Z |
++| Preparation date | 2026-09-30 |
++| Preserved release tag commit | `8b512f7ded1c484325d4eedd04264a11c0ce6293` |
++| Version DOI | https://doi.org/10.5281/zenodo.23079572 |
++| Concept DOI | https://doi.org/10.5281/zenodo.23079571 |
++| Associated HAL record | https://hal.science/hal-05773424 |
++| Author | Alexandre Couret — https://orcid.org/0009-0000-8246-7146 |
++| Software licence | MIT |
++
++The preparation date and the GitHub publication timestamp describe different events. Current metadata uses the GitHub publication date for the package release. The archived tag remains unchanged; current documentation may be ahead of that tag. An archive's own deposit date must remain identified as such if it differs.
++
++## Scope
++
++Étude pilote longitudinale : 21 événements, 13 sources, 7 revendications. Quatre axes distincts : scientifique, documentaire, diffusion, travail. Contrôles structurels et tests de mutation.
++
++Ni ontologie nouvelle de provenance, ni estimation représentative de la fiabilité des IA, ni supériorité causale d’une méthode ou d’un modèle, ni progrès démontré vers RH.
++
++## Reproducibility and references
++
++The current-commit CI observed during the audit succeeded: https://github.com/alexcour/qui-repond-mathematiques-ia/actions/runs/36858787774 (commit `b15eb057dcea32b8290961bdaa22909324f4aa17`). This is an observation about that commit, not a claim that later commits pass. Replay the documented verifiers after each change.
++
++The HAL and Zenodo identifiers above are cross-referenced in the publication documents. Platform notice contents must be checked separately; a populated metadata file is not a live platform audit.
++
++Site: https://www.couretunification.fr/publications-et-depots/
++
++## Maintenance
++
++Preserve published tags and existing DOI identifiers. A documentation update on main does not retroactively alter a cited archive. If changed files must be deposited as an archive, publish a new version after checks and record its actually assigned DOI; never relabel an existing DOI as the identifier of new bytes.
++
++Package v1.1.0, manuscript v1.1.1 and frozen dataset v1.1.2 are separate version series. The manuscript is a non-peer-reviewed working preprint under CC-BY-4.0. Repository code, public CSV data and documentation remain MIT. The original tag predates DOI insertion; it is intentionally preserved.
+--- a/README.md
++++ b/README.md
+@@ -4,7 +4,7 @@
+ 
+ - Author: Alexandre Couret, independent researcher, France.
+ - ORCID: https://orcid.org/0009-0000-8246-7146
+-- Package version: **1.1.0**, prepared 30 September 2026.
++- Package version: **1.1.0**, prepared 30 September 2026; GitHub release published 1 October 2026 at 09:41:32 UTC.
+ - Manuscript version: **1.1.1**, prepared 30 September 2026, **not peer reviewed**.
+ - Frozen dataset version: **1.1.2** — 21 events, 13 sources, 7 claims.
+ - HAL record: https://hal.science/hal-05773424
+@@ -30,7 +30,7 @@
+ python3 scripts/check_release_ready.py
+ ```
+ 
+-That gate intentionally fails until the actual HAL notice and the author’s manuscript licence choice have been entered. Passing the local verification suite alone does not mean the publication metadata are complete.
++The HAL notice and manuscript licence (CC-BY-4.0) are now entered. This gate checks their metadata consistency; rerun it for each maintenance change. Its success does not independently inspect the live HAL notice or validate the mathematics.
+ 
+ ## Read in this order
+ 
+@@ -40,6 +40,7 @@
+ 4. `POST_FREEZE_NOTES.md` — later governance notes outside the frozen dataset.
+ 5. `CONTROL_DESIGN.md`, `LIMITATIONS_AND_NEXT_VERSION.md` — next controlled study.
+ 6. `RESEARCH_AGENDA_COLLABORATION.md` — bounded tasks for independent contributors.
++7. `POTENTIAL_VALUE_AND_EVALUATION.md` — proposed uses and evaluations; no measured external impact is claimed.
+ 
+ Other files include the MIT licence, GitHub Actions workflow, citation metadata, Zenodo metadata, mutation tests, issue templates, release notes and the fresh `TEST_REPORT_v1.1.0.txt`. The previous `TEST_REPORT_v1.0.0.txt` remains historical evidence.
+ 
+@@ -58,4 +59,14 @@
+ 
+ ## Citation and rights
+ 
+-The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript has the rights chosen by its author.
++The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript is recorded as CC-BY-4.0 in the publication configuration.
++
++## Current publication record
++
++See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for identifiers, dates, archive boundaries and links.
++
++## Consolidated novelty boundary
++
++Provenance models, claim graphs, audit trails and longitudinal scientific studies pre-exist this work. The contribution studied here is the specific longitudinal protocol–corpus combination for mathematical claim-state transitions. The public release is a small, partly reconstructed pilot, not the full private interaction history.
++
++See [the positioning update](RELATED_WORK_UPDATE_2026_10_01.md) for the public-corpus boundary, additional comparisons and the distinction between truth and novelty.
+--- /dev/null
++++ b/RELATED_WORK_UPDATE_2026_10_01.md
+@@ -0,0 +1,33 @@
++# Positioning update — 1 October 2026
++
++This note is outside the frozen dataset v1.1.2. It adds no historical event and changes no mathematical label in the CSVs.
++
++## Public corpus boundary
++
++The public pilot has 21 events, 13 sources and 7 claim identifiers across four cases. The source register contains 3 public originals, 9 private/internal originals and 1 private original; non-public originals are not redistributed. The corpus is partly reconstructed retrospectively. It is neither a complete interaction transcript nor a representative benchmark of model reliability.
++
++## Literature comparisons
++
++PROV-O, micropublications and nanopublications are established antecedents. PRM800K and ProcessBench already represent mathematical errors; no priority for preserving negative data is claimed. Additional comparisons include Evidence-Ledger (arXiv:2607.26512v1), TheoremGraph (arXiv:2606.25363v1), the authors’ PreprintPaperTracker repository and the conceptual, non-peer-reviewed Reinforcement Learning Contour v1. These have different units and goals; their relevance is not a claim that their datasets are identical to this pilot.
++
++- https://www.w3.org/TR/prov-o/
++- https://doi.org/10.1186/2041-1480-5-28
++- https://nanopub.net/guidelines/working_draft/
++- https://github.com/openai/prm800k
++- https://arxiv.org/abs/2412.06559
++- https://arxiv.org/abs/2607.26512v1
++- https://arxiv.org/abs/2606.25363v1
++- https://github.com/rustlab1/PreprintPaperTracker
++- https://www.preprints.org/manuscript/202608.0212/v1
++
++## Truth and novelty
++
++Reclassification as classical does not make a true theorem REFUTED. Truth/warrant, novelty, diffusion and documentary condition are separate questions. The frozen schema has four state axes and does not yet include a dedicated novelty axis. A schema extension must be versioned explicitly.
++
++## HOL2 as later context
++
++For odd primes p, reduction SL₂(Z/p^(n+1)Z) → SL₂(Z/p^nZ) splits only when (p,n)=(3,1). The first-level obstruction for p≥5 is already given by Stasinski, §6, Theorem 6.2; that section refers to Sah for the classical classification. No general novelty is claimed. This contextual note does not establish when every claim was first made and does not add a retrospective event to the frozen corpus.
++
++Reference: A. Stasinski, Representations of SL_n over finite local rings of length two, Journal of Algebra 566 (2021), 119–135. https://doi.org/10.1016/j.jalgebra.2020.08.036 ; https://arxiv.org/pdf/1907.09878
++
++The separate p=7 HOL-01 package retains its own scope. This repository does not bundle the full HOL2 mathematical replay, Barning–Hall certificates or a Lean verification of the corpus. A proposed Data Paper describes the existing pilot and is not represented as submitted or accepted.
+--- a/metadata/PUBLICATION_CONFIG.json
++++ b/metadata/PUBLICATION_CONFIG.json
+@@ -3,7 +3,7 @@
+   "package_version": "1.1.0",
+   "manuscript_version": "1.1.1",
+   "dataset_version": "1.1.2",
+-  "publication_date": "2026-09-30",
++  "publication_date": "2026-10-01",
+   "hal_url": "https://hal.science/hal-05773424",
+   "hal_manuscript_license": "CC-BY 4.0",
+   "zenodo_version_doi": "10.5281/zenodo.23079572",

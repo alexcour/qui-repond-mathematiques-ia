@@ -1,0 +1,19 @@
+# RECONCILIATION STATUS — verified 7 October 2026
+# Repository: couret-interia/interia-math-lab
+# Public main commit observed: 324557950854e4e128caf5ac049c75fc315e8648
+# State: PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE
+#
+# README_FR.md, README_hero.md, README_hero_FR.md and pages/index.html already carry
+# the intended status clarification. CURRENT_STATUS.md carries the current status
+# block but is still missing the archival procedure. The public README.md contains
+# a later, compatible status wording and must be preserved rather than overwritten.
+#
+# Residual patch only:
+--- a/CURRENT_STATUS.md
++++ b/CURRENT_STATUS.md
+@@
+ Les tags, DOI, sources et licences historiques restent conservés. Ce raccord documentaire n’établit aucune nouveauté ou validation externe. L’archivage administratif de ce dépôt, le cas échéant, doit intervenir après la correction des surfaces publiques.
++
++## Archival procedure
++
++The handoff proposes archiving this historical repository after the README, rendered pages, About field and release descriptions have been corrected and checked. Do not state that the GitHub repository is already read-only until that setting has actually been applied. Preserve existing tags and identifiers.

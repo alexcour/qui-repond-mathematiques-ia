@@ -1,0 +1,35 @@
+doi: "10.5281/zenodo.23079572"
+cff-version: 1.2.0
+message: "If you use this reproducibility package, cite the archived package DOI and the associated HAL preprint."
+title: "Qui répond des mathématiques produites par machine ? — public reproducibility package"
+type: software
+authors:
+  - family-names: Couret
+    given-names: Alexandre
+    orcid: "https://orcid.org/0009-0000-8246-7146"
+version: 1.1.0
+date-released: 2026-10-01
+license: MIT
+repository-code: "https://github.com/alexcour/qui-repond-mathematiques-ia"
+abstract: >-
+  Public redacted reproducibility package for a longitudinal claim-transition protocol
+  in AI-assisted mathematical research. The frozen pilot snapshot contains 21 events,
+  13 sources and 7 claims, with a deterministic structural validator, mutation tests,
+  descriptive analysis and a bounded collaboration agenda.
+keywords:
+  - AI and mathematics
+  - provenance
+  - scientific accountability
+  - reproducibility
+  - claim-level audit
+  - longitudinal case study
+  - non-promotion
+preferred-citation:
+  type: article
+  title: "Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA"
+  authors:
+    - family-names: Couret
+      given-names: Alexandre
+      orcid: "https://orcid.org/0009-0000-8246-7146"
+  year: 2026
+  url: "https://hal.science/hal-05773424"

@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-01",
+  "mode": "RECONCILED_HANDOFF_NON_DEPLOYE",
+  "repositories": [
+    {
+      "repository": "alexcour/couret-finite-verifications",
+      "key": "alexcour__couret-finite-verifications",
+      "observed_main_commit": "7d508f3925226d892a1084c9c86878eb10644f2e",
+      "files": [
+        {
+          "path": ".zenodo.json",
+          "before_sha256": "6ef322cb48e91960179df009083676515bbaf878c0a5f1824eb142dc7f93bb9e",
+          "after_sha256": "a28adc3e3c10045b17ea95bf0aced1af4d3a0c8f3e11ce5e2c362bbede245602",
+          "payload": "04_GITHUB/alexcour__couret-finite-verifications/apres/.zenodo.json"
+        },
+        {
+          "path": "CITATION.cff",
+          "before_sha256": "0bf91cc9a5bdaacc8f708d004b4c3e685af458ffbbe243e18061c79806760532",
+          "after_sha256": "29989e1b0002b56b9e94b750dec5ab3062d94d76434648b6aa3d73358faf14e9",
+          "payload": "04_GITHUB/alexcour__couret-finite-verifications/apres/CITATION.cff"
+        },
+        {
+          "path": "PUBLICATION_GATE.md",
+          "before_sha256": "2de2acbb7d0d1872b918fc4121b93e85c18e3cec0d9659a56f42396b7f78e417",
+          "after_sha256": "7e0807843060ab3e6b0ef4affaa704d16f88471d99a215193a983ee612400552",
+          "payload": "04_GITHUB/alexcour__couret-finite-verifications/apres/PUBLICATION_GATE.md"
+        },
+        {
+          "path": "PUBLICATION_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "a092983269ef3ef0437fc42b573b5c725d24a9a402d9f5c8d8363f2300087ba1",
+          "payload": "04_GITHUB/alexcour__couret-finite-verifications/apres/PUBLICATION_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "cab79de816e5b6f9f4295b120b3ca82bfd3cc8e59b9cef641a7f6dcf2fe5460a",
+          "after_sha256": "75dc089d10d3d9770ea5e3f7021d67ce550bcd9e8998f8e998f80c7292d039a3",
+          "payload": "04_GITHUB/alexcour__couret-finite-verifications/apres/README.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+    },
+    {
+      "repository": "alexcour/hol01-monodromy-p7",
+      "key": "alexcour__hol01-monodromy-p7",
+      "observed_main_commit": "1b58a874fa100a7c6586ba8768a76e127ef75be7",
+      "files": [
+        {
+          "path": ".zenodo.json",
+          "before_sha256": "a2ed396ae416bab4e09fd5af5ca4dcb1d1998c284b9bae9cf1caf59cefc4f432",
+          "after_sha256": "8ea850981fece1ab85576abd27385d1345da5ef4a577e66de439f5af7dbe660f",
+          "payload": "04_GITHUB/alexcour__hol01-monodromy-p7/apres/.zenodo.json"
+        },
+        {
+          "path": "CITATION.cff",
+          "before_sha256": "c23d6c9db53dcab9a8e750b11d1017e10801615ca5c515e2c463b17d81eac574",
+          "after_sha256": "30e44bb4cea379a646638193c322c4016d36653567a6ffe0e6bd66e2937549ba",
+          "payload": "04_GITHUB/alexcour__hol01-monodromy-p7/apres/CITATION.cff"
+        },
+        {
+          "path": "PUBLICATION_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "43f4ad5d8841bf4eaa1becb71bfb6a0bd525e75e874d088e6a0333b2f8263a45",
+          "payload": "04_GITHUB/alexcour__hol01-monodromy-p7/apres/PUBLICATION_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "3df4f135091be8054cd95d520dc98f496a4bba970ab5a7449cf7b8f16b5116ab",
+          "after_sha256": "2cc0963633e43a8b902132b1b42c8ff556538b1be47e8bc33ff30ee043c54cb1",
+          "payload": "04_GITHUB/alexcour__hol01-monodromy-p7/apres/README.md"
+        },
+        {
+          "path": "SHA256SUMS.txt",
+          "before_sha256": "08bc68c9fc812c9b5a0df5dee51757153cb0f396e54d448100fd063e27cf8a7f",
+          "after_sha256": "4fe08a22825ddbd6429ec92e34657722273b5ab569f2fe42c10ae745f835ae0c",
+          "payload": "04_GITHUB/alexcour__hol01-monodromy-p7/apres/SHA256SUMS.txt"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+    },
+    {
+      "repository": "alexcour/qui-repond-mathematiques-ia",
+      "key": "alexcour__qui-repond-mathematiques-ia",
+      "observed_main_commit": "b15eb057dcea32b8290961bdaa22909324f4aa17",
+      "files": [
+        {
+          "path": ".zenodo.json",
+          "before_sha256": "ae98f2537e36af7f8072da72c758aa67187d23fb75b8c50032a096156ee8243f",
+          "after_sha256": "a6697cd95fd5eb2ea716fab6abaaa3d1bb24378adb9251732f7c866748da029f",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/.zenodo.json"
+        },
+        {
+          "path": "CITATION.cff",
+          "before_sha256": "889c32abfa7f9e2413598180f82b8fc2782ad1937bbd882f35b8127f148376e3",
+          "after_sha256": "6a6cc0749a4b3746d25c99d1938716a287bcdd6257f04d0d051b4c6da6a5e682",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/CITATION.cff"
+        },
+        {
+          "path": "MANIFEST_SHA256.txt",
+          "before_sha256": "cf4e7e9f40ef78a0e7c73cf42ae751791e59ded97d94587df5939f34f20276a2",
+          "after_sha256": "3624ef7d908c5ac88e7331bc2abb389acf3da65461900ae42ef993d27c4e1d40",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/MANIFEST_SHA256.txt"
+        },
+        {
+          "path": "POTENTIAL_VALUE_AND_EVALUATION.md",
+          "before_sha256": null,
+          "after_sha256": "b69a24001b67fa22ca5f7ea1a6e1f2034f5f63d0a5caf913ae7f7eb50bff39cc",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/POTENTIAL_VALUE_AND_EVALUATION.md"
+        },
+        {
+          "path": "PUBLICATION_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "69d9c1247e54480b46335dc44f6fec6e83293ba097c2ea64a81c66c58132076a",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/PUBLICATION_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "00aff0e439e154517228f9f5c9b8f528320584db686f3be17e730df65159d3b8",
+          "after_sha256": "9ac82a7e97d6243f50434e23ff93b214b38de03ccc36fc1a202e6e17c472582b",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/README.md"
+        },
+        {
+          "path": "RELATED_WORK_UPDATE_2026_10_01.md",
+          "before_sha256": null,
+          "after_sha256": "981af9568555a516d3a3bfb2ba9299c70f7f9f8a5964d2654a256d961ec0cf5a",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/RELATED_WORK_UPDATE_2026_10_01.md"
+        },
+        {
+          "path": "metadata/PUBLICATION_CONFIG.json",
+          "before_sha256": "344f3ef5666d85394cc8cefa4c65dbc9e755e521f5114b3d1ec53464dedcba06",
+          "after_sha256": "7c4d9ad5f976ac3d152be47d20e835db2deab037ad5127a5e701a339427c25de",
+          "payload": "04_GITHUB/alexcour__qui-repond-mathematiques-ia/apres/metadata/PUBLICATION_CONFIG.json"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données."
+    },
+    {
+      "repository": "couret-interia/interia-quality",
+      "key": "couret-interia__interia-quality",
+      "observed_main_commit": "7627c038a469e0e2709d70fc24a940c6763e6bbf",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "30665d6d95e743b61d09908cb8508a88c0233b68a792f4ac99787cb1f1be7d95",
+          "payload": "04_GITHUB/couret-interia__interia-quality/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "95c1210bcf2bc64a3d5feb04cb08449b0f2c205141fb33ee033b44003b6bb6cb",
+          "after_sha256": "a8df41f69d6c632268e060cacf608bc0503813026a7e191336a02c6c42b89662",
+          "payload": "04_GITHUB/couret-interia__interia-quality/apres/README.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
+    },
+    {
+      "repository": "couret-interia/rh-analytic-framework-t1t4",
+      "key": "couret-interia__rh-analytic-framework-t1t4",
+      "observed_main_commit": "2ce7cca9b79c537a1893ee316ccf5c7be6af8912",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "fe13ef70c7d72cc65dc107b3d82d826c84af5f9bcf73dc198f691de122957acb",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "f99ad61287b6c93b36930c2f47119b52ef4d508c08741f8bbebe245ab565059e",
+          "after_sha256": "cd9a022edf415afedc457c89ade839d49fea60b6be772f8cd104e7b4f0944bf6",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/README.md"
+        },
+        {
+          "path": "README_FR.md",
+          "before_sha256": "6fb8bd39dd459277433e03b1cea15be3cada6ffe66510c8060e4ed2c4ecfd920",
+          "after_sha256": "b17b794ea1947e3644f67ee7d8064e4e83ddad79e2422b946632ec8b71b70638",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/README_FR.md"
+        },
+        {
+          "path": "README_arxiv.md",
+          "before_sha256": "d9f3b593109b30d555f9d8f459d3d76031d57d851038f80c8fce933b5cb09f58",
+          "after_sha256": "25b0858d39d8eb5d563175987807041ddb5790bcafa87a323f4022d7e354e615",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/README_arxiv.md"
+        },
+        {
+          "path": "README_hero.md",
+          "before_sha256": "aea853f174d4db9710e3fe4a22c0219bae0cdc0db1fa37e8ffdfae3f346b0285",
+          "after_sha256": "0ae7eab21de085ff56f87f9d590a5f32b982d2f07cee67b890bb6fe22f491388",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/README_hero.md"
+        },
+        {
+          "path": "README_hero_FR.md",
+          "before_sha256": "9327a1c20369234e4b43f720d01815ad9d47a397f2865be021937fc95f118168",
+          "after_sha256": "c41cb9503d4bb43abb5a1a5cf9374697908050257c6cbd76dcf6ea3a9b619b45",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/README_hero_FR.md"
+        },
+        {
+          "path": "index.html",
+          "before_sha256": "8ae6f32e890ddad17944ba7672696abf805a3f8e8801a6e8195258d12e1202ef",
+          "after_sha256": "9b181713ad0b16f233f7fcd7ceead69d838ec02ec5a76c186f5cd505eb52de74",
+          "payload": "04_GITHUB/couret-interia__rh-analytic-framework-t1t4/apres/index.html"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ],
+      "patch_policy": "APPLY_RESIDUAL_PATCH_ONLY_PRESERVE_LATER_PUBLIC_WORDING"
+    },
+    {
+      "repository": "couret-interia/.github",
+      "key": "couret-interia__.github",
+      "observed_main_commit": "c73b3d334e110f16454050087b9ac0476ce11fcf",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "30665d6d95e743b61d09908cb8508a88c0233b68a792f4ac99787cb1f1be7d95",
+          "payload": "04_GITHUB/couret-interia__.github/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "5bb3926ad87dc7b78e129fa16b3e8d3953942aa102ac231fd56941565df5f015",
+          "after_sha256": "83ba760cbeed792c4108d69af321e4ecefd8f17d98541e098889385e6f3a8dc4",
+          "payload": "04_GITHUB/couret-interia__.github/apres/README.md"
+        },
+        {
+          "path": "profile/README.md",
+          "before_sha256": "d8763e803781c40c7d4a1f4bc4481b0ebb623460778c21ccc1f2b28ace051dce",
+          "after_sha256": "83ba760cbeed792c4108d69af321e4ecefd8f17d98541e098889385e6f3a8dc4",
+          "payload": "04_GITHUB/couret-interia__.github/apres/profile/README.md"
+        },
+        {
+          "path": "profile/README_FR.md",
+          "before_sha256": "16887b9d305d600a3a090c311a941f60c1dbf3183b1f243887b8634245977470",
+          "after_sha256": "19da5b0e51fade94795fd2c311a1ba6a82c557f6b0d4b9f46f15c45e61ef5767",
+          "payload": "04_GITHUB/couret-interia__.github/apres/profile/README_FR.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_WITH_PUBLIC_ENRICHMENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
+    },
+    {
+      "repository": "couret-interia/interia-suite",
+      "key": "couret-interia__interia-suite",
+      "observed_main_commit": "3228cc752eb096c50e08f4bd2ad3264c5b64fc6f",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "30665d6d95e743b61d09908cb8508a88c0233b68a792f4ac99787cb1f1be7d95",
+          "payload": "04_GITHUB/couret-interia__interia-suite/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "a236d81e4dc41a7f656d424048a5cabcbe30b497fb3494b72c340e30232e3fab",
+          "after_sha256": "8c9a731266965cd4588dfed1a65069ccc73793eac371c3130f93ac4b7a75115a",
+          "payload": "04_GITHUB/couret-interia__interia-suite/apres/README.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
+    },
+    {
+      "repository": "couret-interia/interia-math-lab",
+      "key": "couret-interia__interia-math-lab",
+      "observed_main_commit": "324557950854e4e128caf5ac049c75fc315e8648",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "18f3c7e38a3541705f68c6c0ad5aa6de564efb40476c917b79471934e745c7bf",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "ac2be270a61cd5fb099e4ca5cc418a37e42be846cb825ebdeca162cf400238de",
+          "after_sha256": "c4693aea97dc221ec3a91dcdfafaf0f77db7c85a2e2a2f868c818e9065a2391a",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/README.md"
+        },
+        {
+          "path": "README_FR.md",
+          "before_sha256": "d1b730e5c475cf5e80b56c5d301a82bc74660754c2d169ab785189297bfeed72",
+          "after_sha256": "b40bda8e81bfff45ef8aea5608027981c8eb8bb2ac3a2c33bf94a9f9f68ab581",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/README_FR.md"
+        },
+        {
+          "path": "README_hero.md",
+          "before_sha256": "de6cb27da6563dd8c5c74e317f04def43dd93ce91ac8ec42d40a83edff81d062",
+          "after_sha256": "515bb578871b987cb2dc19849a64f8a402dae3595b1adfd5078c27c3c9d38821",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/README_hero.md"
+        },
+        {
+          "path": "README_hero_FR.md",
+          "before_sha256": "598a1c983c61465b98340bd8daf2407dc8772353546b7f6a3a34af98efa999b8",
+          "after_sha256": "896c56dd0aa5323c9bd0a456bb4274a6f2d6be185d179fe8044a599fa6e3838f",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/README_hero_FR.md"
+        },
+        {
+          "path": "pages/index.html",
+          "before_sha256": "d6216ba97e3e1553f00fb6d413d7217fae0a2ed25ce1604923ac450ee42da3ef",
+          "after_sha256": "70c4f59b27e9895586081dee2e0ecc7e2211ba081e66a521d1ed9f1e9c5bedde",
+          "payload": "04_GITHUB/couret-interia__interia-math-lab/apres/pages/index.html"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "PARTIAL_PUBLIC_RESIDUAL_ARCHIVAL_PROCEDURE",
+      "pending_files": [
+        "CURRENT_STATUS.md"
+      ],
+      "patch_policy": "APPLY_RESIDUAL_PATCH_ONLY_PRESERVE_LATER_PUBLIC_WORDING"
+    },
+    {
+      "repository": "couret-interia/interia-style",
+      "key": "couret-interia__interia-style",
+      "observed_main_commit": "bef61ec90f20b90ed9775b5b71c7c8f60a782ae5",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "30665d6d95e743b61d09908cb8508a88c0233b68a792f4ac99787cb1f1be7d95",
+          "payload": "04_GITHUB/couret-interia__interia-style/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "466919bb6252359067487944e0f537325a774034cdf0b2d06c767d7d9ac2c072",
+          "after_sha256": "5167b165770c0b66e5fd963599433c839d17418df5038845021b76a9a0c68e36",
+          "payload": "04_GITHUB/couret-interia__interia-style/apres/README.md"
+        },
+        {
+          "path": "README_FR.md",
+          "before_sha256": "162ee84ca4bd75f37e612a102f3e9b05ae2f1b3d7bc787d21fa00ec5c8967258",
+          "after_sha256": "ded1735198f0add52398017bbcb2d52027a8605bfcc5ee28c9e3c1ef5cad6982",
+          "payload": "04_GITHUB/couret-interia__interia-style/apres/README_FR.md"
+        },
+        {
+          "path": "README_hero.md",
+          "before_sha256": "7f360d3a14b7b4e74cf48a1c06bfa975100b5d51c10934eb36e91a33cb9d4a71",
+          "after_sha256": "c2c9de1c333aecf68849954299c49a83949cad84e5f87d22f38d9dec46c2e2d0",
+          "payload": "04_GITHUB/couret-interia__interia-style/apres/README_hero.md"
+        },
+        {
+          "path": "README_hero_FR.md",
+          "before_sha256": "2fae79c094d70db1fb090e9651d9598caa0dda89d31b1663d8f583a84a7182cf",
+          "after_sha256": "cbacb585b8faa635df9cc314747d127bf05754b8ebee54e955ff1a437bf70200",
+          "payload": "04_GITHUB/couret-interia__interia-style/apres/README_hero_FR.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
+    },
+    {
+      "repository": "couret-interia/community",
+      "key": "couret-interia__community",
+      "observed_main_commit": "fbdc12a656f98bdffdff99c54b32b7484fbb53aa",
+      "files": [
+        {
+          "path": "CURRENT_STATUS.md",
+          "before_sha256": null,
+          "after_sha256": "30665d6d95e743b61d09908cb8508a88c0233b68a792f4ac99787cb1f1be7d95",
+          "payload": "04_GITHUB/couret-interia__community/apres/CURRENT_STATUS.md"
+        },
+        {
+          "path": "README.md",
+          "before_sha256": "eec1625b7d4d571f37369a9adcb4db4adcc373226710beaaafbeaf16581a67bb",
+          "after_sha256": "b67072615069e41c9b97b13bb648290a5dd95374870be95bbb74703b3457acd7",
+          "payload": "04_GITHUB/couret-interia__community/apres/README.md"
+        },
+        {
+          "path": "README_FR.md",
+          "before_sha256": "0fd41669ca7d1e05bed1a9eb4b43f2124346ce31f87330b8efe291d9ca270d91",
+          "after_sha256": "354335b94a9df9c01437819b067c7f3a1586cb8759044bb3f6e432998bd68332",
+          "payload": "04_GITHUB/couret-interia__community/apres/README_FR.md"
+        }
+      ],
+      "scope": "Documentation et métadonnées uniquement ; aucune modification du code scientifique ni des données.",
+      "reconciliation_state": "APPLIED_PUBLIC_CURRENT",
+      "pending_files": [],
+      "patch_policy": "NO_PATCH_PENDING_DO_NOT_REAPPLY_2026_10_01_FULL_PATCH"
+    }
+  ],
+  "revision": 3,
+  "reconciled_on": "2026-10-07"
+}
