@@ -12,7 +12,7 @@
       "orcid": "0009-0000-8246-7146"
     }
   ],
-  "description": "Public redacted reproducibility package accompanying scientific manuscript version 1.1.1 prepared on 30 September 2026. Frozen pilot dataset v1.1.2 contains 21 events, 13 sources and 7 claims. It provides structural validation, four mutation tests, descriptive analysis, prior-art positioning, a prospective control design and a bounded collaboration agenda. Private sources and autonomous mathematical certificate packages are not redistributed. Structural validation does not prove the mathematical statements or establish AI reliability.",
+  "description": "Public redacted reproducibility package accompanying scientific manuscript version 1.1.1 prepared on 30 September 2026. Frozen pilot dataset v1.1.2 contains 21 events, 13 sources and 7 claims. It provides structural validation, four mutation tests, descriptive analysis, prior-art positioning, a prospective control design and a bounded collaboration agenda. Private sources and autonomous mathematical certificate packages are not redistributed. Structural validation does not prove the mathematical statements or establish AI reliability. Documentary status clarification, 4 November 2026: the HAL submission hal-05773424, platform version 1, was not accepted according to the notification dated 26 October 2026. No public manuscript archive URL is verified here. This software package and the working manuscript are distinct objects; the manuscript PDF is not included. The package remains version 1.1.0; its existing Zenodo version DOI is unchanged.",
   "keywords": [
     "AI and mathematics",
     "provenance",
@@ -23,11 +23,5 @@
     "non-promotion",
     "documentary correction"
   ],
-  "related_identifiers": [
-    {
-      "identifier": "https://hal.science/hal-05773424",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    }
-  ]
+  "related_identifiers": []
 }

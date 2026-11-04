@@ -34,8 +34,11 @@ Choisir les catégories disponibles adaptées à la méthodologie de recherche, 
 LICENCE DU MANUSCRIT
 CC-BY 4.0
 
-NOTICE HAL
+IDENTIFIANT HISTORIQUE DE SOUMISSION HAL — PAS UNE NOTICE ACCEPTEE
 https://hal.science/hal-05773424
+
+STATUT DOCUMENTAIRE — 4 NOVEMBRE 2026
+Soumission hal-05773424, version plateforme 1 : non acceptée selon la notification HAL du 26 octobre 2026, transférée par l'auteur et examinée le 4 novembre. Motif communiqué : critères de déposant et d'activité de recherche. Aucune évaluation par les pairs n'en est déduite. L'API publique ne renvoie aucune notice indexée pour cet identifiant à la date du contrôle ; l'accès direct au portail est bloqué techniquement. L'existence éventuelle d'une page résiduelle reste non vérifiée. Ce fichier conserve les métadonnées préparées et la licence consignée historiquement ; il n'atteste ni une notice acceptée, ni la licence affichée sur HAL. Le refus ne retire pas l'archive logicielle Zenodo v1.1.0.
 
 FICHIER PRINCIPAL
 PREPRINT_HAL_QUI_REPOND_MATHEMATIQUES_IA_V1_1_1_SCIENTIFIQUE_2026-09-30.pdf

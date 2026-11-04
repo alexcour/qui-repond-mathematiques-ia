@@ -13,6 +13,8 @@ a=ap.parse_args()
 if not re.fullmatch(r'https://hal[.]science/hal-[0-9]+(?:v[0-9]+)?',a.hal_url):ap.error('Use the actual https://hal.science/hal-... notice URL')
 if re.search(r'[\r\n]',a.hal_license) or not a.hal_license.strip():ap.error('One nonempty line for the actual licence decision')
 cfg=json.loads((ROOT/'metadata/PUBLICATION_CONFIG.json').read_text(encoding='utf-8'))
+if cfg.get('hal_submission_status')=='rejected':
+    raise SystemExit('Historical HAL-only helper disabled: submission not accepted. Do not restore it as a publication URL. Prepare archive-specific metadata separately after explicit authorization.')
 date=a.release_date or cfg['publication_date']
 datetime.date.fromisoformat(date)
 for doi in (a.zenodo_version_doi,a.zenodo_concept_doi):
