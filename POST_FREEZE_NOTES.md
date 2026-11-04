@@ -9,3 +9,7 @@ The supplied revised master report separates mathematical validity, documentary 
 Later documents announce autonomous Barning–Hall witnesses and new mod-30 covariance calculations. They do not supply those calculations to this public repository. No local structural test promotes them to independently replayed results. A subsequent autonomous release must supply its data, algorithm, normalization, captured outputs and verification boundary.
 
 Claim corrections must use explicit versioned events or release notes. Historical sources must not be rewritten to make the chronology cleaner.
+
+## 4 November 2026 — publication-status correction
+
+The HAL notification dated 26 October identifies submission hal-05773424, platform version 1, as not accepted. No public manuscript notice has been verified. The public HAL index returned zero records for the identifier on 4 November; this observation does not prove that no residual page exists. Zenodo package v1.1.0 remains published under DOI 10.5281/zenodo.23079572. These are documentary and diffusion observations, not mathematical findings or a peer-review assessment. This note is outside the frozen dataset and does not change its 21 events, 13 sources or 7 claims.

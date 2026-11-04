@@ -19,4 +19,14 @@ check(z['creators'][0]['orcid']=='0009-0000-8246-7146','retained author ORCID')
 f=json.loads((ROOT/'metadata/FROZEN_SNAPSHOT_SHA256.json').read_text(encoding='utf-8'))
 for rel,expected in f.items():
     check(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest()==expected,'frozen bytes '+rel)
+check('doi: "'+cfg['zenodo_version_doi']+'"' in cff,'package DOI retained in CFF')
+if cfg.get('hal_submission_status')=='rejected':
+    historical=cfg['hal_submission_url']
+    check(cfg.get('hal_url') is None,'rejected submission is not an active HAL record')
+    check(cfg.get('manuscript_url')!=historical,'rejected submission is not a public manuscript URL')
+    check(not any(r.get('identifier')==historical for r in z.get('related_identifiers',[])),
+          'rejected HAL submission removed from active archive relations')
+    check(historical not in cff and 'associated HAL preprint' not in cff,
+          'package citation does not redirect to rejected HAL submission')
+    check('preferred-citation:' not in cff,'package remains the preferred citation')
 print('Metadata versions and frozen bytes: OK')
