@@ -78,3 +78,7 @@ See [PUBLICATION_STATUS.md](PUBLICATION_STATUS.md) for identifiers, dates, archi
 Provenance models, claim graphs, audit trails and longitudinal scientific studies pre-exist this work. The contribution studied here is the specific longitudinal protocol–corpus combination for mathematical claim-state transitions. The public release is a small, partly reconstructed pilot, not the full private interaction history.
 
 See [the positioning update](RELATED_WORK_UPDATE_2026_10_01.md) for the public-corpus boundary, additional comparisons and the distinction between truth and novelty.
+
+## Consignes pour les agents
+
+Les interventions assistées suivent les [consignes du dépôt](AGENTS.md).
