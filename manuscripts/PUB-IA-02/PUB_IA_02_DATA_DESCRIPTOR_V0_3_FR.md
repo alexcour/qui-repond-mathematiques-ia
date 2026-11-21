@@ -118,7 +118,7 @@ Les corrections et extensions doivent être versionnées avec une source et une 
 
 ## Disponibilité des données
 
-Les tableaux d’événements et de sources sont accessibles dans https://github.com/alexcour/qui-repond-mathematiques-ia et dans l’archive du paquet identifiée par le DOI de version https://doi.org/10.5281/zenodo.23079572 [1]. Le DOI de série est https://doi.org/10.5281/zenodo.23079571. Le manuscrit existant associé est https://hal.science/hal-05773424 [2]. Ces identifiants désignent les objets existants, non un nouveau dépôt du Data Descriptor. Les originaux privés ne sont pas redistribués et leur accès n’est pas promis.
+Les tableaux d’événements et de sources sont accessibles dans https://github.com/alexcour/qui-repond-mathematiques-ia et dans l’archive du paquet identifiée par le DOI de version https://doi.org/10.5281/zenodo.23079572 [1]. Le DOI de série est https://doi.org/10.5281/zenodo.23079571. Le manuscrit narratif associé est un document de travail non évalué par les pairs, version interne v1.1.1 [2]. Sa soumission HAL hal-05773424, version plateforme 1, n'a pas été acceptée selon la notification du 26 octobre 2026. Aucune URL d'archive publique du manuscrit n'a été vérifiée au 4 novembre 2026. Les identifiants Zenodo désignent le paquet reproductible, et non ce manuscrit ou un nouveau dépôt du Data Descriptor. Les originaux privés ne sont pas redistribués et leur accès n’est pas promis.
 
 ## Disponibilité du code
 
@@ -128,7 +128,7 @@ Le même dépôt fournit validateur structurel, scripts de mutation, audit descr
 
 1. Couret, A. Qui répond des mathématiques produites par machine ? Public reproducibility package v1.1.0, frozen dataset v1.1.2 (2026). https://doi.org/10.5281/zenodo.23079572
 
-2. Couret, A. Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA. Working preprint, internal v1.1.1 (2026). https://hal.science/hal-05773424
+2. Couret, A. Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA. Working manuscript, internal v1.1.1, prepared 30 September 2026; not peer reviewed. HAL submission hal-05773424, platform version 1, not accepted (notification dated 26 October 2026); no public archive URL verified as of 4 November 2026.
 
 3. Zheng, K., Han, J. M. & Polu, S. MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics. ICLR 2022; arXiv:2109.00110v2. https://arxiv.org/abs/2109.00110v2
 
@@ -157,3 +157,5 @@ L’auteur déclare n’avoir aucun intérêt concurrent.
 ## Financement
 
 Ce travail a été financé sur les moyens personnels de l’auteur, sans financement externe.
+
+Maintenance documentaire du 4 novembre 2026 : références d’archives corrigées ; version de brouillon 0.3, paquet v1.1.0 et dataset figé v1.1.2 conservés. Aucune nouvelle soumission ou acceptation n’est annoncée.

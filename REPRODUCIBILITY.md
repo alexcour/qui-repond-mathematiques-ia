@@ -12,7 +12,7 @@ Expected final line: RELEASE VERIFICATION: OK. The command runs the 517 structur
 python3 scripts/check_release_ready.py
 ```
 
-The separate publication gate also requires the real HAL notice and the author's manuscript licence decision. It intentionally fails in the transmitted preparation package while these two fields are unset.
+The default publication gate requires an actually verified public manuscript archive and the recorded author's manuscript licence decision. Following the HAL non-acceptance notification dated 26 October 2026, this gate remains pending. The already published package remains available. Use `python3 scripts/check_release_ready.py --documentation-only` for consistency of a documentation correction; success in that mode does not establish manuscript publication or authorize a new release.
 
 To enter actual metadata, use prepare_metadata.py. It changes documentation and citation metadata only; it does not modify historical CSVs or analytical scripts. Obtain the genuine notice and rights decision first. See metadata/PUBLICATION_CONFIG.json. After metadata changes:
 

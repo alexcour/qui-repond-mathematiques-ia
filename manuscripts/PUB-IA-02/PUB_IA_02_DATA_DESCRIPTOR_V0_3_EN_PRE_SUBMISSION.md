@@ -118,7 +118,7 @@ Corrections and extensions should be versioned with a source and rationale. Late
 
 ## Data Availability
 
-The event and source tables are publicly available in https://github.com/alexcour/qui-repond-mathematiques-ia and the package archive identified by version DOI https://doi.org/10.5281/zenodo.23079572 [1]. The series DOI is https://doi.org/10.5281/zenodo.23079571. The associated existing manuscript is https://hal.science/hal-05773424 [2]. These identifiers describe the existing objects, not a new Data Descriptor deposit. Private source originals are not redistributed and access to them is not promised.
+The event and source tables are publicly available in https://github.com/alexcour/qui-repond-mathematiques-ia and the package archive identified by version DOI https://doi.org/10.5281/zenodo.23079572 [1]. The series DOI is https://doi.org/10.5281/zenodo.23079571. The associated narrative manuscript is a non-peer-reviewed working manuscript, internal v1.1.1 [2]. Its HAL submission hal-05773424, platform version 1, was not accepted according to the notification dated 26 October 2026. No public manuscript archive URL has been verified as of 4 November 2026. The Zenodo identifiers refer to the reproducibility package, not to this manuscript or to a new Data Descriptor deposit. Private source originals are not redistributed and access to them is not promised.
 
 ## Code Availability
 
@@ -128,7 +128,7 @@ The same repository provides the structural validator, mutation scripts, descrip
 
 1. Couret, A. Qui répond des mathématiques produites par machine ? Public reproducibility package v1.1.0, frozen dataset v1.1.2 (2026). https://doi.org/10.5281/zenodo.23079572
 
-2. Couret, A. Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA. Working preprint, internal v1.1.1 (2026). https://hal.science/hal-05773424
+2. Couret, A. Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA. Working manuscript, internal v1.1.1, prepared 30 September 2026; not peer reviewed. HAL submission hal-05773424, platform version 1, not accepted (notification dated 26 October 2026); no public archive URL verified as of 4 November 2026.
 
 3. Zheng, K., Han, J. M. & Polu, S. MiniF2F: a cross-system benchmark for formal Olympiad-level mathematics. ICLR 2022; arXiv:2109.00110v2. https://arxiv.org/abs/2109.00110v2
 
@@ -157,3 +157,5 @@ The author declares no competing interests.
 ## Funding
 
 This work was funded by the author's personal resources, without external funding.
+
+Documentary maintenance, 4 November 2026: archive references corrected; draft version 0.3, package v1.1.0 and frozen dataset v1.1.2 are retained. No new submission or acceptance is asserted.

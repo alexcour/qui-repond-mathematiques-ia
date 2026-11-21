@@ -15,7 +15,9 @@ Public reproducibility package for Alexandre Couret’s scientific working prepr
 - Package version: **1.1.0**, prepared 30 September 2026; GitHub release published 1 October 2026 at 09:41:32 UTC.
 - Manuscript version: **1.1.1**, prepared 30 September 2026, **not peer reviewed**.
 - Frozen dataset version: **1.1.2** — 21 events, 13 sources, 7 claims.
-- HAL record: https://hal.science/hal-05773424
+- Historical HAL submission: **hal-05773424, platform version 1 — not accepted**, according to the HAL notification dated 26 October 2026, reviewed on 4 November 2026. This identifier is not used as an accepted publication reference.
+- Public HAL notice: not independently verified; the public HAL API returned no indexed record for this identifier on 4 November 2026. Direct portal access was blocked by its technical protection.
+- Manuscript archive URL: **not verified**. The manuscript remains a working preprint, not peer reviewed; it is not included in the archived reproducibility package.
 - Zenodo DOI: https://doi.org/10.5281/zenodo.23079572
 
 The unit of observation is a sourced claim-state transition. Epistemic, documentary, diffusion and workflow states remain separate. Publication is not proof; documentary correction is not automatically mathematical correction.
@@ -38,7 +40,7 @@ Before a public release, the maintainer must additionally run:
 python3 scripts/check_release_ready.py
 ```
 
-The HAL notice and manuscript licence (CC-BY-4.0) are now entered. This gate checks their metadata consistency; rerun it for each maintenance change. Its success does not independently inspect the live HAL notice or validate the mathematics.
+The historical HAL submission was not accepted. The default publication gate therefore remains pending until a public manuscript archive is actually verified. This does not withdraw or invalidate the already published package v1.1.0. For maintenance of the current documentation, run `python3 scripts/check_release_ready.py --documentation-only`; this checks local consistency only and does not authorize a new release, submission or publication. The manuscript licence CC-BY-4.0 is retained as recorded in the author's existing configuration, not as evidence of HAL acceptance.
 
 ## Read in this order
 
@@ -67,7 +69,7 @@ Its later uniform explanation is treated as classical context and does not enlar
 
 ## Citation and rights
 
-The manuscript is to be cited through its actual HAL notice. This package is to be cited through its archived Zenodo version DOI. `CITATION.cff` supports GitHub citation; `.zenodo.json` controls Zenodo metadata when both files are present. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain the existing MIT licence. The HAL manuscript is recorded as CC-BY-4.0 in the publication configuration.
+Cite the reproducibility package through its archived Zenodo version DOI, https://doi.org/10.5281/zenodo.23079572. Cite the manuscript separately as a non-peer-reviewed working manuscript, version 1.1.1, prepared 30 September 2026; no verified public archive URL is currently supplied here. The rejected HAL submission is retained only in the publication history. `CITATION.cff` describes the package and does not redirect its preferred citation to the manuscript. `.zenodo.json` describes repository-side archive metadata; changes here do not update the existing Zenodo record. The manuscript PDF is kept outside this repository. Public code, CSV exports and repository documentation retain MIT. The existing manuscript licence choice CC-BY-4.0 is retained; no licence is changed by this correction.
 
 ## Current publication record
 

@@ -1,6 +1,6 @@
 doi: "10.5281/zenodo.23079572"
 cff-version: 1.2.0
-message: "If you use this reproducibility package, cite the archived package DOI and the associated HAL preprint."
+message: "If you use this reproducibility package, cite this package with its archived version DOI. Cite the working manuscript separately; no accepted HAL record is asserted."
 title: "Qui répond des mathématiques produites par machine ? — public reproducibility package"
 type: software
 authors:
@@ -24,12 +24,3 @@ keywords:
   - claim-level audit
   - longitudinal case study
   - non-promotion
-preferred-citation:
-  type: article
-  title: "Qui répond des mathématiques produites par machine ? Traçabilité longitudinale des transitions de revendications en recherche mathématique assistée par IA"
-  authors:
-    - family-names: Couret
-      given-names: Alexandre
-      orcid: "https://orcid.org/0009-0000-8246-7146"
-  year: 2026
-  url: "https://hal.science/hal-05773424"
